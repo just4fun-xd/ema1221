@@ -8,9 +8,9 @@ Run locally: python _concentration_check.py
 """
 import pandas as pd
 import numpy as np
-from engine import load_data
-from engine_portfolio import load_basket, run_portfolio
-from strategies_dualmom import dual_momentum_tilt
+from core.engine import load_data
+from core.engine_portfolio import load_basket, run_portfolio
+from strategies.strategies_dualmom import dual_momentum_tilt
 
 BASKET = {"S&P 500":"SPY","Nasdaq":"QQQ","Apple":"AAPL","Tesla":"TSLA",
   "Nvidia":"NVDA","Microsoft":"MSFT","Amazon":"AMZN","Meta":"META",

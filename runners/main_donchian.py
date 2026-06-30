@@ -1,10 +1,20 @@
 import pandas as pd
-from display import print_row
-from engine import load_data, run_engine
+from core.display import print_row
+from core.engine import load_data, run_engine
 
-from strategies import (ema_cross, ema_cross_stop, sma_trend, ema_trend,
+from strategies.strategies import (ema_cross, ema_cross_stop, sma_trend, ema_trend,
                         ema_ensemble, ema_ensemble_voltarget,
                         ema_ensemble_long_short, ema_ensemble_voltarget_ls)
+
+from strategies.strategies_turtle import (
+    donchian_breakout,
+    donchian_breakout_ls,
+    donchian_ensemble_voltarget,
+    donchian_ensemble_macd_voltarget,
+    donchian_ensemble_macd_voltarget_ls,
+    donchian_ensemble_macd_pyramid,
+    donchian_ensemble_pyramid
+)
 
 
 cost = 0.001
@@ -80,14 +90,13 @@ diversified = {
 }
 
 strategies = {
-    "EMA Cross": ema_cross,
-    "EMA Cross+Stop": ema_cross_stop,
-    "SMA Trend": sma_trend,
-    "EMA Trend": ema_trend,
-    "EMA Ens": ema_ensemble,
-    "EMA Ens+VT": ema_ensemble_voltarget,
-    "EMA Ens LS": ema_ensemble_long_short,
-    "EMA Ens+VT LS": ema_ensemble_voltarget_ls,
+    "Donchian Base": donchian_breakout,
+    "Donchian Base LS": donchian_breakout_ls,
+    "Donchian Ens+VT": donchian_ensemble_voltarget,
+    "Donchian Ens+MACD+VT": donchian_ensemble_macd_voltarget,
+    "Donchian Ens+MACD+VT LS": donchian_ensemble_macd_voltarget_ls,
+    "Donchian Ens+MACD+Pyramid": donchian_ensemble_macd_pyramid,
+    "Donchian Ens+Pyramid": donchian_ensemble_pyramid,
 }
 
 

@@ -3,7 +3,7 @@ import numpy as np
 import statsmodels.api as sm
 from statsmodels.tsa.stattools import adfuller
 
-from engine import load_data
+from core.engine import load_data
 
 
 def analyze_pair(name_a, ticker_a, name_b, ticker_b,

@@ -12,11 +12,11 @@ instrument at a time and cannot rank a basket of one.
 
 import pandas as pd
 
-from engine import load_data
-from strategies import ema_cross, ema_ensemble_voltarget
-from engine_portfolio import (load_basket, positions_to_weights,
+from core.engine import load_data
+from strategies.strategies import ema_cross, ema_ensemble_voltarget
+from core.engine_portfolio import (load_basket, positions_to_weights,
                               run_portfolio, portfolio_beta)
-from strategies_dualmom import dual_momentum_tilt
+from strategies.strategies_dualmom import dual_momentum_tilt
 
 # Your per-series strategies to compare (add donchian_* imports as needed):
 #   from not_now import donchian_ensemble_macd_voltarget, ...

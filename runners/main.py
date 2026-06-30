@@ -1,19 +1,19 @@
 import pandas as pd
-from display import print_header, print_row
-from engine import load_data, run_engine, combine_positions
+from core.display import print_header, print_row
+from core.engine import load_data, run_engine, combine_positions
 
-from strategies import (ema_cross, ema_cross_stop, sma_trend, ema_trend,
+from strategies.strategies import (ema_cross, ema_cross_stop, sma_trend, ema_trend,
                         ema_ensemble, ema_ensemble_voltarget,
                         ema_ensemble_long_short, ema_ensemble_voltarget_ls,
                         ema_ensemble_voltarget_smart_ls)
-from strategies_turtle import (donchian_breakout,
+from strategies.strategies_turtle import (donchian_breakout,
                                donchian_ensemble_voltarget,
                                donchian_ensemble_macd_voltarget,
                                donchian_ensemble_macd_pyramid,
                                donchian_ensemble_pyramid)
-from strategies_seasonal import seasonal_gas
-from strategies_meanrev import bollinger_rsi
-from strategies_dualmom import dual_momentum_tilt
+from strategies.strategies_seasonal import seasonal_gas
+from strategies.strategies_meanrev import bollinger_rsi
+from strategies.strategies_dualmom import dual_momentum_tilt
 
 
 cost = 0.001

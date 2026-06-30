@@ -15,10 +15,10 @@
 import pandas as pd
 import statsmodels.api as sm
 
-from engine import load_data, run_engine
-from display import print_row
-from strategies_pairs import zscore_spread
-from strategies_pairs_kalman import zscore_spread_kalman
+from core.engine import load_data, run_engine
+from core.display import print_row
+from strategies.strategies_pairs import zscore_spread
+from strategies.strategies_pairs_kalman import zscore_spread_kalman
 
 cost = 0.001
 

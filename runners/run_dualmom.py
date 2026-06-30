@@ -14,12 +14,12 @@ Outputs:
 
 import pandas as pd
 
-from engine import load_data, run_engine
-from strategies import ema_ensemble
-from engine_portfolio import (load_basket, positions_to_weights,
+from core.engine import load_data, run_engine
+from strategies.strategies import ema_ensemble
+from core.engine_portfolio import (load_basket, positions_to_weights,
                               run_portfolio, portfolio_beta,
                               run_portfolio_yearly)
-from strategies_dualmom import (dual_momentum, dual_momentum_long_only,
+from strategies.strategies_dualmom import (dual_momentum, dual_momentum_long_only,
                                 dual_momentum_tilt, dual_momentum_regime,
                                 dual_momentum_volscaled)
 

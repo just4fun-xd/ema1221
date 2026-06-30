@@ -11,22 +11,22 @@
 """
 
 import pandas as pd
-from engine import load_data, run_engine
-from strategies import (
+from core.engine import load_data, run_engine
+from strategies.strategies import (
      ema_cross, ema_cross_stop, sma_trend, ema_trend,
      ema_ensemble, ema_ensemble_voltarget,
      ema_ensemble_long_short, ema_ensemble_voltarget_ls)
 
-from strategies_turtle import (donchian_ensemble_pyramid, donchian_breakout,
+from strategies.strategies_turtle import (donchian_ensemble_pyramid, donchian_breakout,
                                donchian_breakout_ls,
                                donchian_ensemble_voltarget,
                                )
-from not_now import (donchian_ensemble_macd_4step_pyramid,
+from strategies.strategies_donchian_champions import (donchian_ensemble_macd_4step_pyramid,
                      donchian_ensemble_macd_4step_take)
 
-from strategies_seasonal import (seasonal_gas, donchian_seasonal,
+from strategies.strategies_seasonal import (seasonal_gas, donchian_seasonal,
                                  donchian_seasonal_voltarget)
-from strategies_bollinger import donchian_bollinger_b, bollinger_squeeze
+from strategies.strategies_bollinger import donchian_bollinger_b, bollinger_squeeze
 
 cost = 0.001
 

@@ -11,9 +11,9 @@ OLS, что и в pair_diagnostic.py — статичная, look-ahead, POC onl
 import pandas as pd
 import statsmodels.api as sm
 
-from engine import load_data, run_engine
-from display import print_row
-from strategies_pairs import zscore_spread
+from core.engine import load_data, run_engine
+from core.display import print_row
+from strategies.strategies_pairs import zscore_spread
 
 cost = 0.001
 load_start = "2015-01-01"

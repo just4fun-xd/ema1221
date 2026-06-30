@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from engine import load_data, run_engine
+from core.engine import load_data, run_engine
 
 
 def load_basket(tickers, load_start, end):
@@ -181,7 +181,7 @@ def run_portfolio_yearly(prices, weights, periods, cost=0.001,
         the same diagnostic value as the old per-series report.
     """
     try:
-        from display import print_row
+        from core.display import print_row
     except Exception:
         def print_row(label, r, dd, col_width=14):
             print(f"{label:<{col_width}}{r*100:>9.1f}%{dd*100:>9.1f}%")

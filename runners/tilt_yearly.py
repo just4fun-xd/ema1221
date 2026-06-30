@@ -15,9 +15,9 @@ READ THIS before interpreting:
 
 import pandas as pd
 
-from engine import load_data
-from engine_portfolio import load_basket, run_portfolio_yearly
-from strategies_dualmom import dual_momentum_tilt
+from core.engine import load_data
+from core.engine_portfolio import load_basket, run_portfolio_yearly
+from strategies.strategies_dualmom import dual_momentum_tilt
 
 BASKET = {
     "S&P 500": "SPY", "Nasdaq": "QQQ", "Apple": "AAPL", "Tesla": "TSLA",

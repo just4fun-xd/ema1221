@@ -13,9 +13,9 @@ POC look-ahead, ОК для фальсификатора, rolling-β перед 
 import pandas as pd
 import statsmodels.api as sm
 
-from engine import load_data, run_engine
-from display import print_row
-from strategies_pairs import zscore_spread
+from core.engine import load_data, run_engine
+from core.display import print_row
+from strategies.strategies_pairs import zscore_spread
 
 cost = 0.001
 

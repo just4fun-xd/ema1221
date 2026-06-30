@@ -237,3 +237,63 @@ def ema_ensemble_voltarget_ls(close, pairs=None, threshold=0.5,
     annual_vol = daily_vol * (252 ** 0.5)
     size = (target_vol / annual_vol).clip(upper=max_pos)
     return direction * size
+
+
+def ema_ensemble_voltarget_smart_ls(close, pairs_long=None, pairs_short=None, 
+                                    threshold_long=0.2, threshold_short=-0.8,
+                                    target_vol=0.15, vol_window=30, max_pos=2.0):
+    """
+    Асимметричный Long/Short ансамбль с умным таргетированием волатильности.
+    """
+    if pairs_long is None:
+        pairs_long = [(5, 20), (10, 40), (20, 80), (40, 160), (64, 256)]
+
+    if pairs_short is None:
+        pairs_short = [(5, 20), (10, 40), (20, 80)]
+
+    votes_long = []
+    for fast, slow in pairs_long:
+        ema_fast = close.ewm(span=fast, adjust=False).mean()
+        ema_slow = close.ewm(span=slow, adjust=False).mean()
+        votes_long.append(np.where(ema_fast > ema_slow, 1, -1))
+    
+    score_long = np.mean(votes_long, axis=0)
+    
+    votes_short = []
+    for fast, slow in pairs_short:
+        ema_fast = close.ewm(span=fast, adjust=False).mean()
+        ema_slow = close.ewm(span=slow, adjust=False).mean()
+        votes_short.append(np.where(ema_fast > ema_slow, 1, -1))
+        
+    score_short = np.mean(votes_short, axis=0)
+
+    direction = pd.Series(0.0, index=close.index)
+    
+    direction[score_long > threshold_long] = 1.0
+    
+    direction[score_short < threshold_short] = -1.0
+    
+    daily_vol = close.pct_change().rolling(vol_window).std()
+    annual_vol = daily_vol * np.sqrt(252)
+    
+    raw_size = target_vol / annual_vol
+
+    
+    final_position = pd.Series(0.0, index=close.index)
+    
+    for i in range(len(close)):
+        if pd.isna(annual_vol.iloc[i]):
+            continue
+            
+        current_dir = direction.iloc[i]
+        calculated_size = raw_size.iloc[i]
+        
+        if current_dir == 1.0:
+            size = min(calculated_size, max_pos)
+            final_position.iloc[i] = size
+        elif current_dir == -1.0:
+
+            size = max(min(calculated_size, 1.0), 0.5)
+            final_position.iloc[i] = -size
+
+    return final_position

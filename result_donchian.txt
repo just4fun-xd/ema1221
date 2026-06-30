@@ -1,0 +1,2548 @@
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base ===
+=== Period: 2019-01-01 -> 2020-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     12.3%[0m     -5.8%
+Palladium     [92m     29.7%[0m    -19.1%
+Zinc          [92m      0.7%[0m     -4.1%
+Aluminum           -4.6%     -5.5%
+Crude Oil          -1.9%    -25.1%
+Copper             -4.8%    -14.3%
+Brent Oil          -0.9%    -20.8%
+Natural Gas   [92m      3.6%[0m    -13.6%
+Heating Oil       -10.4%    -20.8%
+Gasoline           -2.7%    -27.2%
+Wheat         [92m     10.2%[0m     -9.2%
+Corn          [92m     11.2%[0m     -8.6%
+Soybeans      [92m      9.4%[0m     -3.7%
+Soybean Oil   [92m      1.1%[0m    -14.7%
+Soybean Meal       -6.6%     -9.0%
+Coffee        [92m      6.2%[0m    -13.9%
+Cocoa              -7.6%    -15.6%
+Sugar         [92m      2.4%[0m    -11.5%
+Cotton        [92m      2.3%[0m    -15.6%
+S&P 500       [92m     18.1%[0m     -2.6%
+Nasdaq        [92m     22.0%[0m     -5.7%
+Apple         [92m     57.4%[0m    -13.7%
+Tesla         [92m     18.8%[0m    -23.8%
+Nvidia        [92m     23.9%[0m    -14.0%
+Microsoft     [92m     17.6%[0m    -12.7%
+Amazon            -14.8%    -17.5%
+Meta          [92m     11.4%[0m    -13.4%
+Alphabet      [92m      8.5%[0m     -9.5%
+AMD           [92m     28.6%[0m    -21.4%
+Netflix            -3.5%    -23.8%
+Visa          [92m     14.8%[0m    -11.4%
+Mastercard    [92m     13.1%[0m    -18.2%
+UnitedHealth  [92m      2.6%[0m    -20.2%
+Home Depot    [92m     10.7%[0m     -9.3%
+Bank of America[92m     12.7%[0m    -15.0%
+Coca-Cola     [92m      3.2%[0m     -8.6%
+Procter & Gamble[92m      3.6%[0m    -10.0%
+Walmart       [92m      4.4%[0m     -7.1%
+JPMorgan      [92m     19.6%[0m     -8.3%
+Exxon Mobil        -3.5%    -14.2%
+Eli Lilly     [92m      7.3%[0m    -18.8%
+20Y Treasury  [92m      1.3%[0m     -9.4%
+7-10Y Treasury[92m      1.2%[0m     -4.2%
+Euro               -2.3%     -4.5%
+Yen                -4.2%     -5.9%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base LS ===
+=== Period: 2019-01-01 -> 2020-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      3.0%[0m    -11.1%
+Palladium     [92m     15.1%[0m    -25.1%
+Zinc               -3.0%     -6.7%
+Aluminum          -11.5%    -12.3%
+Crude Oil         -18.3%    -37.0%
+Copper            -21.0%    -26.0%
+Brent Oil         -14.3%    -28.1%
+Natural Gas       -14.8%    -24.7%
+Heating Oil       -21.7%    -24.6%
+Gasoline          -13.7%    -33.6%
+Wheat         [92m      6.6%[0m    -17.6%
+Corn              -11.3%    -18.8%
+Soybeans      [92m     10.5%[0m     -6.1%
+Soybean Oil   [92m      0.5%[0m    -18.2%
+Soybean Meal      -11.6%    -13.9%
+Coffee        [92m      0.4%[0m    -14.6%
+Cocoa              -7.1%    -22.8%
+Sugar              -8.4%    -25.1%
+Cotton             -4.5%    -24.6%
+S&P 500       [92m     10.6%[0m     -6.8%
+Nasdaq        [92m     15.4%[0m    -11.0%
+Apple         [92m     56.3%[0m    -13.7%
+Tesla         [92m     23.0%[0m    -34.8%
+Nvidia        [92m     13.3%[0m    -21.4%
+Microsoft     [92m      4.7%[0m    -20.6%
+Amazon            -24.1%    -24.1%
+Meta          [92m      2.0%[0m    -16.4%
+Alphabet      [92m      7.6%[0m    -14.0%
+AMD               -29.3%[91m    -55.7%[0m
+Netflix            -8.0%    -26.8%
+Visa          [92m      1.8%[0m    -18.5%
+Mastercard         -2.2%    -25.7%
+UnitedHealth       -7.6%    -29.9%
+Home Depot    [92m      5.0%[0m    -14.7%
+Bank of America     -2.5%    -25.8%
+Coca-Cola          -1.0%    -10.8%
+Procter & Gamble     -5.6%    -14.5%
+Walmart       [92m      0.9%[0m     -9.7%
+JPMorgan      [92m      0.5%[0m    -14.6%
+Exxon Mobil        -2.3%    -14.2%
+Eli Lilly     [92m      5.5%[0m    -20.3%
+20Y Treasury       -8.4%    -16.0%
+7-10Y Treasury     -1.6%     -7.5%
+Euro              -12.0%    -13.3%
+Yen                -8.1%    -10.1%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+VT ===
+=== Period: 2019-01-01 -> 2020-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     18.2%[0m     -9.6%
+Palladium     [92m     18.3%[0m    -10.2%
+Zinc          [92m      1.2%[0m     -8.0%
+Aluminum           -9.4%     -9.4%
+Crude Oil     [92m      0.4%[0m    -10.3%
+Copper             -2.1%     -7.2%
+Brent Oil          -0.9%    -11.9%
+Natural Gas        -3.0%     -4.1%
+Heating Oil        -5.7%    -15.2%
+Gasoline      [92m      3.2%[0m     -7.6%
+Wheat              -0.0%     -6.6%
+Corn               -4.5%     -9.6%
+Soybeans      [92m      0.4%[0m     -3.7%
+Soybean Oil   [92m      4.0%[0m    -10.0%
+Soybean Meal       -1.6%     -1.7%
+Coffee             -2.5%     -8.4%
+Cocoa             -13.9%    -16.0%
+Sugar              -0.2%     -7.8%
+Cotton        [92m      1.9%[0m     -4.2%
+S&P 500       [92m     13.2%[0m     -4.6%
+Nasdaq        [92m     16.6%[0m     -6.1%
+Apple         [92m     28.9%[0m     -9.7%
+Tesla         [92m      8.6%[0m     -8.7%
+Nvidia        [92m      2.5%[0m     -5.7%
+Microsoft     [92m     17.1%[0m    -11.2%
+Amazon             -9.6%    -14.3%
+Meta               -0.2%     -8.7%
+Alphabet      [92m      4.3%[0m     -9.1%
+AMD           [92m     17.5%[0m     -7.8%
+Netflix            -7.2%     -8.6%
+Visa          [92m     15.6%[0m     -9.8%
+Mastercard    [92m      9.1%[0m    -14.7%
+UnitedHealth       -3.3%    -13.5%
+Home Depot         -1.4%    -13.0%
+Bank of America     -1.1%    -11.2%
+Coca-Cola          -0.1%    -10.1%
+Procter & Gamble[92m      0.6%[0m     -9.9%
+Walmart       [92m      0.6%[0m    -10.1%
+JPMorgan      [92m     15.8%[0m     -4.9%
+Exxon Mobil        -2.0%     -6.9%
+Eli Lilly     [92m      4.2%[0m    -17.1%
+20Y Treasury  [92m      6.4%[0m     -9.5%
+7-10Y Treasury[92m      2.3%[0m     -8.2%
+Euro               -2.8%     -5.2%
+Yen               -11.0%    -14.1%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT ===
+=== Period: 2019-01-01 -> 2020-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     16.5%[0m     -9.6%
+Palladium     [92m     18.3%[0m    -10.2%
+Zinc          [92m      1.1%[0m     -8.0%
+Aluminum           -9.4%     -9.4%
+Crude Oil     [92m      0.0%[0m    -10.3%
+Copper             -2.1%     -7.2%
+Brent Oil          -1.9%    -11.9%
+Natural Gas        -4.2%     -4.2%
+Heating Oil        -5.7%    -15.2%
+Gasoline      [92m      3.2%[0m     -7.6%
+Wheat              -0.0%     -6.6%
+Corn               -4.5%     -9.6%
+Soybeans      [92m      0.4%[0m     -3.7%
+Soybean Oil   [92m      4.0%[0m    -10.0%
+Soybean Meal        0.0%      0.0%
+Coffee             -5.2%     -9.1%
+Cocoa              -9.1%    -11.3%
+Sugar              -1.7%     -8.3%
+Cotton        [92m      1.4%[0m     -4.2%
+S&P 500       [92m     11.5%[0m     -4.6%
+Nasdaq        [92m     12.0%[0m     -6.1%
+Apple         [92m     25.3%[0m     -9.7%
+Tesla         [92m      4.5%[0m     -9.5%
+Nvidia        [92m      1.0%[0m     -7.1%
+Microsoft     [92m     12.5%[0m    -12.6%
+Amazon             -9.6%    -14.3%
+Meta               -1.9%     -8.7%
+Alphabet      [92m      4.3%[0m     -9.1%
+AMD           [92m     17.5%[0m     -7.8%
+Netflix            -5.0%     -7.1%
+Visa          [92m     17.7%[0m     -9.8%
+Mastercard    [92m      2.9%[0m    -16.3%
+UnitedHealth  [92m      2.2%[0m     -8.5%
+Home Depot         -2.7%    -13.3%
+Bank of America     -2.9%     -9.0%
+Coca-Cola          -1.1%    -10.1%
+Procter & Gamble     -3.7%    -12.7%
+Walmart            -0.7%    -11.3%
+JPMorgan      [92m     15.8%[0m     -4.9%
+Exxon Mobil   [92m      1.9%[0m     -3.2%
+Eli Lilly     [92m      4.2%[0m    -17.1%
+20Y Treasury  [92m      6.4%[0m     -9.5%
+7-10Y Treasury[92m      4.4%[0m     -8.2%
+Euro               -2.8%     -5.2%
+Yen               -12.1%    -15.2%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT LS ===
+=== Period: 2019-01-01 -> 2020-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     13.8%[0m    -11.7%
+Palladium     [92m     17.5%[0m    -10.8%
+Zinc          [92m      0.7%[0m     -8.7%
+Aluminum          -14.7%    -14.7%
+Crude Oil          -7.5%    -15.8%
+Copper            -17.6%    -20.3%
+Brent Oil          -8.4%    -16.3%
+Natural Gas        -4.3%    -14.7%
+Heating Oil       -16.7%    -20.1%
+Gasoline           -3.8%    -13.0%
+Wheat         [92m      1.8%[0m     -7.7%
+Corn              -23.6%    -23.6%
+Soybeans      [92m      0.9%[0m    -10.0%
+Soybean Oil        -1.3%    -16.4%
+Soybean Meal       -5.1%     -9.0%
+Coffee             -9.7%    -17.1%
+Cocoa             -11.8%    -13.9%
+Sugar              -4.9%    -12.8%
+Cotton             -1.5%    -11.6%
+S&P 500       [92m     10.8%[0m     -4.6%
+Nasdaq        [92m     11.3%[0m     -6.1%
+Apple         [92m     26.0%[0m     -9.7%
+Tesla         [92m      8.9%[0m    -12.0%
+Nvidia        [92m      1.2%[0m    -12.7%
+Microsoft     [92m     12.2%[0m    -12.6%
+Amazon            -17.9%    -21.1%
+Meta               -8.1%    -13.0%
+Alphabet      [92m      4.9%[0m     -8.1%
+AMD           [92m     13.9%[0m     -9.9%
+Netflix            -6.1%     -9.3%
+Visa          [92m     17.4%[0m     -9.8%
+Mastercard    [92m      2.6%[0m    -16.3%
+UnitedHealth       -5.0%    -15.6%
+Home Depot         -4.8%    -15.1%
+Bank of America     -7.5%    -13.4%
+Coca-Cola          -1.1%    -10.1%
+Procter & Gamble     -3.7%    -12.7%
+Walmart            -0.7%    -11.3%
+JPMorgan      [92m      9.2%[0m     -9.5%
+Exxon Mobil   [92m      1.0%[0m     -5.9%
+Eli Lilly          -2.7%    -22.5%
+20Y Treasury  [92m      6.3%[0m     -9.6%
+7-10Y Treasury[92m      4.4%[0m     -8.2%
+Euro              -19.6%    -21.6%
+Yen               -16.8%    -19.7%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+Pyramid ===
+=== Period: 2019-01-01 -> 2020-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     16.9%[0m     -7.8%
+Palladium     [92m     17.4%[0m     -8.2%
+Zinc          [92m      2.2%[0m     -5.2%
+Aluminum           -9.4%     -9.4%
+Crude Oil     [92m      1.9%[0m     -7.0%
+Copper             -0.9%     -4.6%
+Brent Oil     [92m      0.0%[0m     -8.6%
+Natural Gas        -3.5%     -3.5%
+Heating Oil        -3.7%    -10.9%
+Gasoline      [92m      3.7%[0m     -6.6%
+Wheat              -0.4%     -4.4%
+Corn          [92m      0.1%[0m     -4.9%
+Soybeans      [92m      0.4%[0m     -2.5%
+Soybean Oil   [92m      3.4%[0m     -8.9%
+Soybean Meal        0.0%      0.0%
+Coffee             -4.2%     -7.0%
+Cocoa              -6.9%     -8.1%
+Sugar              -2.1%     -6.5%
+Cotton        [92m      0.6%[0m     -3.3%
+S&P 500       [92m      7.5%[0m     -4.8%
+Nasdaq        [92m      9.0%[0m     -4.8%
+Apple         [92m     22.2%[0m     -8.6%
+Tesla         [92m      8.4%[0m     -4.8%
+Nvidia        [92m      2.7%[0m     -3.8%
+Microsoft     [92m     13.5%[0m     -8.2%
+Amazon             -2.1%     -9.3%
+Meta          [92m      0.9%[0m     -5.9%
+Alphabet           -3.9%     -9.7%
+AMD           [92m     14.8%[0m     -5.8%
+Netflix            -4.4%     -5.1%
+Visa          [92m     16.8%[0m     -8.3%
+Mastercard    [92m      4.5%[0m    -12.7%
+UnitedHealth  [92m      0.9%[0m     -7.4%
+Home Depot         -1.8%     -9.9%
+Bank of America     -3.3%     -8.0%
+Coca-Cola          -2.7%     -9.4%
+Procter & Gamble     -1.7%     -9.8%
+Walmart            -3.1%    -10.4%
+JPMorgan      [92m     14.0%[0m     -3.5%
+Exxon Mobil   [92m      1.4%[0m     -3.2%
+Eli Lilly     [92m      9.9%[0m    -10.6%
+20Y Treasury  [92m      9.1%[0m     -6.4%
+7-10Y Treasury[92m      4.9%[0m     -5.6%
+Euro               -1.3%     -2.6%
+Yen                -7.3%    -10.0%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+Pyramid ===
+=== Period: 2019-01-01 -> 2020-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     18.7%[0m     -7.8%
+Palladium     [92m     17.4%[0m     -8.2%
+Zinc          [92m      2.3%[0m     -5.2%
+Aluminum           -9.4%     -9.4%
+Crude Oil     [92m      2.6%[0m     -7.0%
+Copper             -0.9%     -4.6%
+Brent Oil     [92m      1.1%[0m     -8.6%
+Natural Gas        -4.5%     -5.0%
+Heating Oil        -3.7%    -10.9%
+Gasoline      [92m      3.7%[0m     -6.6%
+Wheat              -0.4%     -4.4%
+Corn          [92m      0.1%[0m     -4.9%
+Soybeans      [92m      0.4%[0m     -2.5%
+Soybean Oil   [92m      3.4%[0m     -8.9%
+Soybean Meal       -0.8%     -0.9%
+Coffee             -1.7%     -6.6%
+Cocoa              -9.4%    -10.6%
+Sugar              -0.9%     -6.2%
+Cotton        [92m      1.7%[0m     -3.3%
+S&P 500       [92m      9.1%[0m     -4.8%
+Nasdaq        [92m     13.0%[0m     -4.8%
+Apple         [92m     24.8%[0m     -8.6%
+Tesla         [92m     11.3%[0m     -4.4%
+Nvidia        [92m      1.9%[0m     -4.6%
+Microsoft     [92m     13.2%[0m    -10.3%
+Amazon             -2.1%     -9.3%
+Meta          [92m      1.5%[0m     -5.9%
+Alphabet           -3.9%     -9.7%
+AMD           [92m     14.8%[0m     -5.8%
+Netflix            -5.5%     -6.0%
+Visa          [92m     15.7%[0m     -8.3%
+Mastercard    [92m     10.3%[0m    -11.3%
+UnitedHealth       -0.6%    -10.0%
+Home Depot         -2.6%    -11.1%
+Bank of America     -3.0%    -11.6%
+Coca-Cola          -1.4%     -9.7%
+Procter & Gamble     -0.7%     -9.2%
+Walmart            -3.1%    -10.5%
+JPMorgan      [92m     14.0%[0m     -3.5%
+Exxon Mobil        -0.6%     -5.1%
+Eli Lilly     [92m      9.9%[0m    -10.6%
+20Y Treasury  [92m      9.1%[0m     -6.4%
+7-10Y Treasury[92m      4.4%[0m     -5.6%
+Euro               -1.3%     -2.6%
+Yen                -8.2%    -10.9%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base ===
+=== Period: 2020-01-01 -> 2021-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -7.1%    -16.3%
+Palladium     [92m      5.8%[0m    -23.2%
+Zinc          [92m      1.6%[0m     -5.4%
+Aluminum      [92m     16.8%[0m     -5.5%
+Crude Oil     [92m     67.0%[0m    -13.1%
+Copper        [92m     23.9%[0m     -8.5%
+Brent Oil     [92m     44.0%[0m    -15.6%
+Natural Gas   [92m      7.0%[0m    -24.6%
+Heating Oil   [92m     27.8%[0m    -12.8%
+Gasoline      [92m     11.4%[0m[91m    -44.4%[0m
+Wheat         [92m     11.5%[0m     -8.7%
+Corn          [92m     10.3%[0m    -19.6%
+Soybeans      [92m     25.2%[0m     -6.2%
+Soybean Oil   [92m     29.0%[0m    -11.2%
+Soybean Meal  [92m     36.6%[0m    -14.3%
+Coffee        [92m     14.7%[0m    -21.8%
+Cocoa         [92m      1.4%[0m    -18.6%
+Sugar         [92m     14.8%[0m    -13.9%
+Cotton        [92m     14.8%[0m    -10.6%
+S&P 500       [92m     11.5%[0m     -8.0%
+Nasdaq        [92m     33.7%[0m    -16.1%
+Apple         [92m     32.3%[0m    -22.8%
+Tesla         [92m    480.0%[0m    -39.8%
+Nvidia        [92m     72.5%[0m    -24.0%
+Microsoft     [92m     21.7%[0m    -20.3%
+Amazon        [92m     40.2%[0m    -15.7%
+Meta          [92m      4.7%[0m    -23.0%
+Alphabet      [92m     12.3%[0m    -14.7%
+AMD           [92m     35.8%[0m    -22.9%
+Netflix            -2.8%    -31.8%
+Visa               -4.8%    -17.1%
+Mastercard    [92m      7.7%[0m    -19.5%
+UnitedHealth      -20.3%    -20.1%
+Home Depot    [92m     25.9%[0m     -8.1%
+Bank of America    -12.5%    -24.3%
+Coca-Cola         -17.8%    -23.4%
+Procter & Gamble     -4.9%    -11.2%
+Walmart            -8.2%    -25.9%
+JPMorgan           -0.0%    -26.1%
+Exxon Mobil   [92m      4.8%[0m    -21.4%
+Eli Lilly          -5.3%    -26.2%
+20Y Treasury  [92m      5.7%[0m    -14.0%
+7-10Y Treasury[92m      3.3%[0m     -5.7%
+Euro          [92m      3.4%[0m     -4.9%
+Yen                -6.0%     -9.8%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base LS ===
+=== Period: 2020-01-01 -> 2021-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold              -26.6%    -32.0%
+Palladium         -26.8%[91m    -58.3%[0m
+Zinc               -2.3%     -8.2%
+Aluminum      [92m     27.3%[0m     -6.6%
+Crude Oil     [92m    653.7%[0m[91m    -66.1%[0m
+Copper        [92m     23.0%[0m    -19.6%
+Brent Oil     [92m     36.0%[0m[91m    -50.9%[0m
+Natural Gas       -40.0%[91m    -51.9%[0m
+Heating Oil   [92m     89.6%[0m    -39.7%
+Gasoline      [92m     35.4%[0m[91m    -64.1%[0m
+Wheat              -6.4%    -16.1%
+Corn          [92m     13.3%[0m    -21.5%
+Soybeans      [92m     15.0%[0m    -17.1%
+Soybean Oil   [92m     34.4%[0m    -19.8%
+Soybean Meal  [92m     19.2%[0m    -18.6%
+Coffee        [92m     33.8%[0m    -28.9%
+Cocoa             -12.1%    -31.7%
+Sugar         [92m     45.4%[0m    -18.9%
+Cotton        [92m     30.9%[0m    -14.3%
+S&P 500       [92m      7.6%[0m    -17.6%
+Nasdaq        [92m     25.5%[0m    -24.5%
+Apple         [92m     19.4%[0m    -31.6%
+Tesla         [92m    331.5%[0m[91m    -44.9%[0m
+Nvidia        [92m     30.0%[0m    -32.5%
+Microsoft          -3.9%    -29.2%
+Amazon        [92m      0.9%[0m    -25.7%
+Meta          [92m      1.1%[0m    -29.6%
+Alphabet      [92m      2.5%[0m    -22.3%
+AMD               -21.5%[91m    -46.3%[0m
+Netflix           -39.8%[91m    -53.3%[0m
+Visa              -19.5%    -38.9%
+Mastercard        -10.8%[91m    -42.7%[0m
+UnitedHealth      -48.7%[91m    -48.5%[0m
+Home Depot    [92m     10.8%[0m    -28.1%
+Bank of America    -36.5%[91m    -61.8%[0m
+Coca-Cola         -15.3%[91m    -41.5%[0m
+Procter & Gamble    -21.6%    -30.3%
+Walmart           -24.3%    -30.6%
+JPMorgan          -20.3%[91m    -51.7%[0m
+Exxon Mobil   [92m     68.8%[0m    -29.9%
+Eli Lilly         -35.7%[91m    -51.3%[0m
+20Y Treasury      -15.2%    -29.1%
+7-10Y Treasury     -0.2%     -8.3%
+Euro               -3.6%     -9.2%
+Yen               -13.5%    -14.1%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+VT ===
+=== Period: 2020-01-01 -> 2021-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      0.5%[0m    -14.8%
+Palladium     [92m      6.5%[0m    -10.5%
+Zinc          [92m      4.2%[0m     -9.6%
+Aluminum      [92m     10.2%[0m     -4.7%
+Crude Oil     [92m      0.8%[0m     -6.7%
+Copper        [92m     12.4%[0m     -5.5%
+Brent Oil     [92m      2.1%[0m     -7.1%
+Natural Gas   [92m      4.8%[0m     -2.8%
+Heating Oil   [92m      0.1%[0m     -7.2%
+Gasoline      [92m      1.3%[0m     -7.2%
+Wheat         [92m      6.8%[0m     -6.4%
+Corn          [92m     10.5%[0m     -8.7%
+Soybeans      [92m     23.4%[0m     -5.8%
+Soybean Oil   [92m     18.9%[0m     -8.2%
+Soybean Meal  [92m     25.4%[0m     -5.2%
+Coffee        [92m      4.7%[0m     -7.1%
+Cocoa         [92m      4.6%[0m     -3.3%
+Sugar         [92m      4.6%[0m    -10.3%
+Cotton        [92m      9.7%[0m     -8.2%
+S&P 500       [92m      5.6%[0m     -9.8%
+Nasdaq        [92m     16.1%[0m    -10.7%
+Apple         [92m     17.5%[0m     -9.8%
+Tesla         [92m     69.2%[0m     -8.0%
+Nvidia        [92m     24.1%[0m     -9.2%
+Microsoft     [92m     16.8%[0m    -10.4%
+Amazon        [92m     18.4%[0m     -8.1%
+Meta               -3.6%    -10.3%
+Alphabet      [92m      5.5%[0m     -8.1%
+AMD           [92m      7.0%[0m     -8.9%
+Netflix       [92m      1.7%[0m    -11.9%
+Visa          [92m      0.4%[0m    -13.9%
+Mastercard    [92m     13.8%[0m     -7.8%
+UnitedHealth      -14.4%    -13.9%
+Home Depot    [92m      9.7%[0m     -6.7%
+Bank of America[92m      0.2%[0m     -4.2%
+Coca-Cola          -2.3%    -10.0%
+Procter & Gamble     -3.7%     -9.7%
+Walmart            -3.4%    -12.6%
+JPMorgan      [92m      3.3%[0m     -8.0%
+Exxon Mobil        -3.3%     -3.3%
+Eli Lilly     [92m      1.0%[0m    -13.9%
+20Y Treasury  [92m     14.1%[0m     -8.8%
+7-10Y Treasury[92m      9.4%[0m     -8.7%
+Euro               -0.3%     -9.6%
+Yen               -10.8%    -14.2%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT ===
+=== Period: 2020-01-01 -> 2021-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      0.5%[0m    -14.8%
+Palladium     [92m      6.5%[0m    -10.5%
+Zinc          [92m      7.2%[0m     -7.0%
+Aluminum      [92m     10.2%[0m     -4.7%
+Crude Oil          -0.4%     -7.8%
+Copper        [92m     15.0%[0m     -6.4%
+Brent Oil     [92m      6.3%[0m     -3.3%
+Natural Gas   [92m      4.8%[0m     -2.8%
+Heating Oil   [92m      3.6%[0m     -4.1%
+Gasoline      [92m      1.3%[0m     -7.2%
+Wheat         [92m      6.8%[0m     -6.4%
+Corn          [92m     10.5%[0m     -7.6%
+Soybeans      [92m     18.3%[0m     -8.3%
+Soybean Oil   [92m     17.1%[0m     -8.2%
+Soybean Meal  [92m     25.4%[0m     -5.2%
+Coffee        [92m      4.7%[0m     -7.1%
+Cocoa         [92m      4.6%[0m     -3.3%
+Sugar         [92m      9.2%[0m     -6.1%
+Cotton        [92m      8.6%[0m     -7.8%
+S&P 500       [92m      4.9%[0m    -10.4%
+Nasdaq        [92m     15.5%[0m    -10.7%
+Apple         [92m     24.6%[0m     -8.4%
+Tesla         [92m     65.8%[0m     -8.0%
+Nvidia        [92m     21.9%[0m     -9.2%
+Microsoft     [92m     16.7%[0m    -10.4%
+Amazon        [92m     15.9%[0m     -8.1%
+Meta          [92m      4.8%[0m     -7.1%
+Alphabet      [92m      3.1%[0m     -8.1%
+AMD           [92m      5.9%[0m     -8.9%
+Netflix       [92m      0.2%[0m    -11.9%
+Visa          [92m      0.4%[0m    -13.9%
+Mastercard    [92m     13.8%[0m     -7.8%
+UnitedHealth      -12.4%    -11.9%
+Home Depot    [92m      9.0%[0m     -6.7%
+Bank of America[92m      0.2%[0m     -4.2%
+Coca-Cola          -3.2%     -8.8%
+Procter & Gamble     -2.4%     -9.7%
+Walmart            -4.7%    -12.6%
+JPMorgan      [92m      3.3%[0m     -8.0%
+Exxon Mobil        -3.3%     -3.3%
+Eli Lilly     [92m      1.0%[0m    -13.9%
+20Y Treasury  [92m     15.1%[0m     -8.0%
+7-10Y Treasury[92m      9.4%[0m     -8.7%
+Euro               -1.1%     -9.6%
+Yen               -10.8%    -14.2%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT LS ===
+=== Period: 2020-01-01 -> 2021-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -0.9%    -15.6%
+Palladium          -5.6%    -19.7%
+Zinc          [92m      1.8%[0m    -10.1%
+Aluminum      [92m     27.2%[0m     -4.3%
+Crude Oil     [92m      9.3%[0m    -14.8%
+Copper        [92m     26.3%[0m     -6.4%
+Brent Oil     [92m     26.4%[0m     -7.8%
+Natural Gas        -2.5%    -13.7%
+Heating Oil   [92m     22.6%[0m     -8.6%
+Gasoline      [92m      8.1%[0m    -15.0%
+Wheat         [92m      1.5%[0m    -11.0%
+Corn          [92m      4.2%[0m    -16.0%
+Soybeans      [92m      9.1%[0m    -15.4%
+Soybean Oil   [92m     19.8%[0m    -13.2%
+Soybean Meal  [92m      7.1%[0m    -16.6%
+Coffee             -1.3%    -11.0%
+Cocoa              -8.3%    -14.2%
+Sugar         [92m      9.2%[0m    -10.8%
+Cotton        [92m     24.7%[0m     -7.8%
+S&P 500       [92m      5.9%[0m    -11.8%
+Nasdaq        [92m     12.6%[0m    -10.8%
+Apple         [92m     22.5%[0m     -8.4%
+Tesla         [92m     65.8%[0m     -8.0%
+Nvidia        [92m     21.9%[0m     -9.2%
+Microsoft     [92m     13.0%[0m    -10.4%
+Amazon        [92m     15.9%[0m     -8.1%
+Meta          [92m      8.4%[0m     -7.1%
+Alphabet      [92m      3.5%[0m     -8.1%
+AMD           [92m      5.9%[0m     -8.9%
+Netflix       [92m      0.2%[0m    -11.9%
+Visa               -7.1%    -20.3%
+Mastercard    [92m      2.0%[0m    -15.1%
+UnitedHealth      -13.8%    -13.3%
+Home Depot    [92m      5.1%[0m     -9.6%
+Bank of America     -6.6%    -17.5%
+Coca-Cola          -5.3%    -13.0%
+Procter & Gamble    -10.0%    -16.8%
+Walmart           -13.5%    -17.5%
+JPMorgan           -0.3%    -15.3%
+Exxon Mobil   [92m     34.5%[0m     -7.4%
+Eli Lilly          -6.7%    -20.5%
+20Y Treasury  [92m      7.7%[0m    -11.0%
+7-10Y Treasury[92m      6.8%[0m    -10.6%
+Euro               -7.7%    -17.1%
+Yen               -20.2%    -20.9%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+Pyramid ===
+=== Period: 2020-01-01 -> 2021-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      5.6%[0m    -12.4%
+Palladium     [92m      8.5%[0m     -7.8%
+Zinc          [92m      6.5%[0m     -7.1%
+Aluminum      [92m     10.3%[0m     -4.0%
+Crude Oil     [92m      0.1%[0m     -6.2%
+Copper        [92m     11.4%[0m     -7.3%
+Brent Oil     [92m      5.4%[0m     -3.3%
+Natural Gas   [92m      3.4%[0m     -2.8%
+Heating Oil   [92m      2.9%[0m     -4.0%
+Gasoline           -1.4%     -7.5%
+Wheat         [92m      4.6%[0m     -7.8%
+Corn          [92m     14.5%[0m     -4.8%
+Soybeans      [92m     14.5%[0m     -7.1%
+Soybean Oil   [92m     16.3%[0m     -6.2%
+Soybean Meal  [92m     21.4%[0m     -5.2%
+Coffee        [92m      1.3%[0m     -8.5%
+Cocoa         [92m      1.7%[0m     -3.6%
+Sugar         [92m      5.2%[0m     -5.9%
+Cotton        [92m      6.7%[0m     -6.4%
+S&P 500       [92m      1.7%[0m    -11.2%
+Nasdaq        [92m     12.1%[0m    -10.4%
+Apple         [92m     21.9%[0m     -8.1%
+Tesla         [92m     61.8%[0m     -7.4%
+Nvidia        [92m     21.9%[0m     -7.7%
+Microsoft     [92m     15.8%[0m     -9.6%
+Amazon        [92m      9.8%[0m     -8.2%
+Meta          [92m      3.6%[0m     -7.0%
+Alphabet           -1.6%     -8.8%
+AMD           [92m      3.8%[0m     -9.1%
+Netflix            -0.4%    -10.3%
+Visa          [92m      3.2%[0m    -10.4%
+Mastercard    [92m      9.9%[0m     -8.4%
+UnitedHealth      -11.4%    -10.8%
+Home Depot    [92m      5.8%[0m     -7.1%
+Bank of America     -0.8%     -4.3%
+Coca-Cola          -3.5%     -8.2%
+Procter & Gamble[92m      2.7%[0m     -8.1%
+Walmart            -6.8%     -8.7%
+JPMorgan      [92m      2.5%[0m     -5.7%
+Exxon Mobil        -2.4%     -2.4%
+Eli Lilly     [92m      5.2%[0m     -9.3%
+20Y Treasury  [92m     14.6%[0m     -7.4%
+7-10Y Treasury[92m      8.4%[0m     -8.6%
+Euro          [92m      1.5%[0m     -6.1%
+Yen               -11.8%    -15.8%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+Pyramid ===
+=== Period: 2020-01-01 -> 2021-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      5.6%[0m    -12.4%
+Palladium     [92m      8.5%[0m     -7.8%
+Zinc          [92m      5.0%[0m     -8.4%
+Aluminum      [92m     10.3%[0m     -4.0%
+Crude Oil          -0.9%     -7.2%
+Copper        [92m     10.8%[0m     -6.2%
+Brent Oil     [92m      1.8%[0m     -6.6%
+Natural Gas   [92m      3.4%[0m     -2.8%
+Heating Oil   [92m      1.1%[0m     -5.6%
+Gasoline           -1.4%     -7.5%
+Wheat         [92m      4.6%[0m     -7.8%
+Corn          [92m     14.8%[0m     -5.0%
+Soybeans      [92m     20.2%[0m     -5.6%
+Soybean Oil   [92m     18.4%[0m     -6.2%
+Soybean Meal  [92m     21.4%[0m     -5.2%
+Coffee        [92m      1.3%[0m     -8.5%
+Cocoa         [92m      1.7%[0m     -3.6%
+Sugar         [92m      2.4%[0m     -8.0%
+Cotton        [92m      7.3%[0m     -7.2%
+S&P 500       [92m      2.2%[0m    -10.8%
+Nasdaq        [92m     12.5%[0m    -10.4%
+Apple         [92m     18.3%[0m     -8.1%
+Tesla         [92m     64.8%[0m     -7.4%
+Nvidia        [92m     24.1%[0m     -7.7%
+Microsoft     [92m     15.9%[0m     -9.6%
+Amazon        [92m     11.4%[0m     -8.2%
+Meta          [92m      0.9%[0m     -7.0%
+Alphabet           -0.3%     -9.3%
+AMD           [92m      5.2%[0m     -8.1%
+Netflix            -0.7%    -10.3%
+Visa          [92m      3.2%[0m    -10.4%
+Mastercard    [92m      9.9%[0m     -8.4%
+UnitedHealth      -11.8%    -11.3%
+Home Depot    [92m      6.2%[0m     -7.1%
+Bank of America     -0.8%     -4.3%
+Coca-Cola          -2.4%     -8.8%
+Procter & Gamble[92m      2.6%[0m     -7.7%
+Walmart            -4.5%     -8.8%
+JPMorgan      [92m      2.5%[0m     -5.7%
+Exxon Mobil        -2.4%     -2.4%
+Eli Lilly     [92m      5.2%[0m     -9.3%
+20Y Treasury  [92m     14.1%[0m     -7.8%
+7-10Y Treasury[92m      8.4%[0m     -8.6%
+Euro          [92m      3.0%[0m     -6.1%
+Yen               -11.8%    -15.8%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base ===
+=== Period: 2021-01-01 -> 2022-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -7.4%    -11.3%
+Palladium          -9.5%    -18.9%
+Zinc               -4.1%     -4.1%
+Aluminum      [92m     18.6%[0m    -12.0%
+Crude Oil     [92m     36.6%[0m    -11.4%
+Copper             -5.8%    -22.4%
+Brent Oil     [92m     10.9%[0m    -24.4%
+Natural Gas   [92m     73.2%[0m    -15.4%
+Heating Oil   [92m     11.5%[0m    -26.6%
+Gasoline      [92m     11.9%[0m    -31.3%
+Wheat         [92m     19.3%[0m    -10.6%
+Corn          [92m     15.7%[0m    -25.6%
+Soybeans      [92m      2.1%[0m    -12.9%
+Soybean Oil   [92m     11.1%[0m    -18.4%
+Soybean Meal       -1.0%    -20.5%
+Coffee        [92m     30.9%[0m    -16.8%
+Cocoa             -32.1%    -34.0%
+Sugar              -5.3%    -17.4%
+Cotton        [92m     17.7%[0m     -9.9%
+S&P 500       [92m      2.3%[0m     -5.6%
+Nasdaq        [92m      9.4%[0m     -5.7%
+Apple         [92m     25.9%[0m     -7.8%
+Tesla         [92m     31.7%[0m    -19.5%
+Nvidia        [92m     96.7%[0m    -10.0%
+Microsoft     [92m     29.7%[0m     -6.2%
+Amazon             -8.8%    -17.2%
+Meta              -19.1%    -23.0%
+Alphabet      [92m     37.8%[0m     -6.8%
+AMD           [92m     34.5%[0m    -15.8%
+Netflix           -14.0%    -17.3%
+Visa              -13.8%    -16.6%
+Mastercard        -28.4%    -32.4%
+UnitedHealth  [92m     16.9%[0m     -9.9%
+Home Depot    [92m     20.9%[0m     -8.9%
+Bank of America[92m     29.3%[0m     -6.9%
+Coca-Cola     [92m      2.8%[0m     -5.4%
+Procter & Gamble[92m      7.6%[0m     -7.1%
+Walmart       [92m      1.0%[0m     -7.4%
+JPMorgan      [92m      7.4%[0m     -9.9%
+Exxon Mobil   [92m      8.8%[0m    -18.5%
+Eli Lilly     [92m     23.4%[0m    -19.2%
+20Y Treasury       -0.5%     -7.9%
+7-10Y Treasury     -0.6%     -2.8%
+Euro               -6.7%     -7.3%
+Yen                -6.0%     -6.6%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base LS ===
+=== Period: 2021-01-01 -> 2022-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -8.2%    -18.2%
+Palladium         -20.4%    -36.4%
+Zinc               -2.1%     -6.6%
+Aluminum      [92m     20.3%[0m    -12.0%
+Crude Oil     [92m      9.6%[0m    -31.7%
+Copper            -27.9%    -33.3%
+Brent Oil         -11.0%[91m    -40.4%[0m
+Natural Gas   [92m     25.6%[0m    -25.1%
+Heating Oil   [92m      4.5%[0m    -34.2%
+Gasoline      [92m     15.8%[0m    -30.3%
+Wheat              -6.4%    -20.1%
+Corn               -4.5%    -38.6%
+Soybeans           -4.6%    -16.0%
+Soybean Oil       -13.0%    -32.6%
+Soybean Meal  [92m      7.2%[0m    -20.9%
+Coffee             -1.5%    -16.8%
+Cocoa             -53.8%[91m    -53.8%[0m
+Sugar             -15.7%    -28.7%
+Cotton        [92m      5.5%[0m    -12.7%
+S&P 500           -11.0%    -14.3%
+Nasdaq             -0.9%     -9.8%
+Apple         [92m     28.8%[0m     -7.8%
+Tesla         [92m     26.5%[0m    -30.8%
+Nvidia        [92m      2.9%[0m    -28.6%
+Microsoft     [92m      9.6%[0m    -14.3%
+Amazon            -19.4%    -23.2%
+Meta              -37.4%[91m    -41.4%[0m
+Alphabet      [92m     10.5%[0m    -13.4%
+AMD                -5.3%    -24.8%
+Netflix           -30.2%    -31.2%
+Visa              -19.5%    -23.7%
+Mastercard        -41.1%[91m    -41.4%[0m
+UnitedHealth       -0.2%    -20.1%
+Home Depot    [92m      9.4%[0m    -11.8%
+Bank of America[92m      8.4%[0m    -15.0%
+Coca-Cola          -1.1%     -7.9%
+Procter & Gamble[92m      6.1%[0m    -10.8%
+Walmart            -3.6%    -11.7%
+JPMorgan           -8.6%    -24.5%
+Exxon Mobil        -6.2%    -25.2%
+Eli Lilly     [92m     23.5%[0m    -25.1%
+20Y Treasury       -4.6%    -15.0%
+7-10Y Treasury[92m      0.4%[0m     -4.6%
+Euro               -6.1%     -7.5%
+Yen                -1.4%     -6.7%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+VT ===
+=== Period: 2021-01-01 -> 2022-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -9.4%    -12.9%
+Palladium     [92m      1.6%[0m     -5.2%
+Zinc               -1.4%     -1.7%
+Aluminum      [92m     17.5%[0m     -9.5%
+Crude Oil     [92m     17.5%[0m     -7.7%
+Copper             -1.1%    -13.9%
+Brent Oil     [92m      3.2%[0m    -17.8%
+Natural Gas   [92m     28.6%[0m     -3.9%
+Heating Oil   [92m      4.3%[0m    -20.8%
+Gasoline      [92m      5.2%[0m    -19.9%
+Wheat         [92m     10.8%[0m     -5.9%
+Corn          [92m     16.0%[0m     -9.9%
+Soybeans      [92m      2.0%[0m     -8.1%
+Soybean Oil   [92m      7.1%[0m     -8.6%
+Soybean Meal       -3.7%    -12.8%
+Coffee        [92m     14.9%[0m     -5.7%
+Cocoa             -13.9%    -15.4%
+Sugar              -1.8%     -8.6%
+Cotton        [92m     11.6%[0m     -6.1%
+S&P 500            -1.5%     -7.7%
+Nasdaq        [92m      4.6%[0m     -5.9%
+Apple         [92m     19.6%[0m     -5.5%
+Tesla         [92m     20.5%[0m     -5.8%
+Nvidia        [92m     29.2%[0m     -4.9%
+Microsoft     [92m     18.9%[0m     -6.5%
+Amazon             -6.9%    -12.7%
+Meta              -10.3%    -11.9%
+Alphabet      [92m     22.1%[0m     -5.9%
+AMD           [92m     14.7%[0m     -7.4%
+Netflix            -3.8%     -7.5%
+Visa              -10.5%    -10.2%
+Mastercard        -16.4%    -17.6%
+UnitedHealth  [92m     10.0%[0m     -9.0%
+Home Depot    [92m     15.0%[0m     -8.0%
+Bank of America[92m     13.5%[0m     -4.5%
+Coca-Cola     [92m      1.0%[0m     -7.9%
+Procter & Gamble[92m      3.1%[0m     -9.5%
+Walmart            -3.8%    -12.0%
+JPMorgan      [92m      2.5%[0m     -8.0%
+Exxon Mobil   [92m      1.9%[0m    -10.2%
+Eli Lilly     [92m     15.9%[0m    -10.2%
+20Y Treasury       -5.9%     -9.8%
+7-10Y Treasury[92m      1.9%[0m     -2.1%
+Euro               -8.7%     -9.9%
+Yen                -1.3%     -2.6%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT ===
+=== Period: 2021-01-01 -> 2022-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -9.4%    -12.9%
+Palladium     [92m      1.6%[0m     -5.2%
+Zinc               -1.4%     -1.7%
+Aluminum      [92m     16.4%[0m     -9.5%
+Crude Oil     [92m     20.8%[0m     -6.4%
+Copper             -0.3%    -13.9%
+Brent Oil     [92m     12.9%[0m    -12.1%
+Natural Gas   [92m     26.3%[0m     -4.4%
+Heating Oil   [92m     13.1%[0m    -14.2%
+Gasoline      [92m      2.7%[0m    -21.8%
+Wheat         [92m     10.8%[0m     -5.9%
+Corn          [92m     14.2%[0m     -9.9%
+Soybeans      [92m      1.3%[0m     -8.8%
+Soybean Oil   [92m      5.8%[0m     -9.1%
+Soybean Meal       -3.7%    -12.8%
+Coffee        [92m     12.9%[0m     -5.7%
+Cocoa             -15.4%    -16.9%
+Sugar              -1.8%     -8.6%
+Cotton        [92m      7.0%[0m     -6.1%
+S&P 500            -2.7%     -7.7%
+Nasdaq             -0.3%     -5.9%
+Apple         [92m     18.7%[0m     -5.5%
+Tesla         [92m     19.3%[0m     -6.7%
+Nvidia        [92m     26.4%[0m     -5.2%
+Microsoft     [92m     21.9%[0m     -4.2%
+Amazon             -6.9%    -12.7%
+Meta              -11.0%    -12.6%
+Alphabet      [92m     17.7%[0m     -5.9%
+AMD           [92m     14.7%[0m     -7.4%
+Netflix            -4.1%     -7.5%
+Visa              -10.5%    -10.2%
+Mastercard        -16.2%    -17.4%
+UnitedHealth  [92m     14.1%[0m     -5.7%
+Home Depot    [92m     12.2%[0m    -10.0%
+Bank of America[92m     13.5%[0m     -4.5%
+Coca-Cola     [92m      3.8%[0m     -5.4%
+Procter & Gamble[92m      5.1%[0m     -6.5%
+Walmart       [92m      1.0%[0m     -7.7%
+JPMorgan      [92m      2.5%[0m     -8.0%
+Exxon Mobil   [92m      1.6%[0m    -10.2%
+Eli Lilly     [92m     23.1%[0m     -5.5%
+20Y Treasury       -5.9%     -9.8%
+7-10Y Treasury[92m      1.9%[0m     -2.1%
+Euro               -9.3%    -10.5%
+Yen                -1.3%     -2.6%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT LS ===
+=== Period: 2021-01-01 -> 2022-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold              -12.6%    -19.1%
+Palladium     [92m      7.5%[0m     -7.0%
+Zinc          [92m      2.9%[0m     -7.2%
+Aluminum      [92m     16.4%[0m     -9.5%
+Crude Oil     [92m     12.5%[0m     -8.0%
+Copper            -12.4%    -23.6%
+Brent Oil     [92m      8.0%[0m    -14.0%
+Natural Gas   [92m     24.3%[0m     -4.9%
+Heating Oil   [92m     13.1%[0m    -14.2%
+Gasoline           -0.4%    -22.2%
+Wheat         [92m      0.9%[0m    -11.9%
+Corn          [92m      7.0%[0m    -15.5%
+Soybeans      [92m      2.6%[0m     -8.8%
+Soybean Oil   [92m      2.4%[0m    -13.2%
+Soybean Meal       -2.8%    -13.8%
+Coffee        [92m     12.9%[0m     -5.7%
+Cocoa             -34.6%    -34.6%
+Sugar              -1.8%     -8.6%
+Cotton        [92m      7.0%[0m     -6.1%
+S&P 500            -2.7%     -7.7%
+Nasdaq             -0.3%     -5.9%
+Apple         [92m     14.4%[0m     -7.2%
+Tesla         [92m     18.7%[0m     -7.2%
+Nvidia        [92m     26.4%[0m     -5.2%
+Microsoft     [92m     21.9%[0m     -4.2%
+Amazon            -14.0%    -17.1%
+Meta              -25.3%    -26.1%
+Alphabet      [92m     17.7%[0m     -5.9%
+AMD           [92m     13.9%[0m     -8.1%
+Netflix            -4.9%     -8.3%
+Visa              -16.9%    -18.7%
+Mastercard        -21.7%    -22.8%
+UnitedHealth  [92m      8.7%[0m    -10.1%
+Home Depot    [92m      7.6%[0m    -10.0%
+Bank of America[92m     13.5%[0m     -4.5%
+Coca-Cola          -6.2%     -9.9%
+Procter & Gamble[92m      8.9%[0m     -6.5%
+Walmart            -6.3%     -9.1%
+JPMorgan      [92m      1.7%[0m     -8.8%
+Exxon Mobil   [92m      1.9%[0m     -9.9%
+Eli Lilly     [92m     23.1%[0m     -5.5%
+20Y Treasury       -3.0%    -12.9%
+7-10Y Treasury[92m      0.2%[0m     -7.2%
+Euro              -10.8%    -14.9%
+Yen           [92m      4.2%[0m     -5.9%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+Pyramid ===
+=== Period: 2021-01-01 -> 2022-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -8.7%    -10.6%
+Palladium     [92m      2.9%[0m     -3.3%
+Zinc               -0.7%     -0.8%
+Aluminum      [92m     16.1%[0m     -6.9%
+Crude Oil     [92m     17.6%[0m     -6.6%
+Copper        [92m      0.6%[0m    -11.2%
+Brent Oil     [92m     15.4%[0m     -9.0%
+Natural Gas   [92m     21.2%[0m     -4.1%
+Heating Oil   [92m     16.7%[0m    -10.7%
+Gasoline      [92m     10.0%[0m    -15.4%
+Wheat         [92m      8.9%[0m     -6.7%
+Corn          [92m     14.2%[0m     -8.7%
+Soybeans           -0.4%     -9.2%
+Soybean Oil   [92m      6.3%[0m     -6.3%
+Soybean Meal       -4.0%    -13.1%
+Coffee        [92m      7.0%[0m     -6.0%
+Cocoa             -12.4%    -13.1%
+Sugar              -0.3%     -8.1%
+Cotton        [92m      1.9%[0m     -7.7%
+S&P 500            -4.5%     -8.3%
+Nasdaq             -2.2%     -5.7%
+Apple         [92m     13.3%[0m     -6.4%
+Tesla         [92m     17.2%[0m     -7.2%
+Nvidia        [92m     23.7%[0m     -4.1%
+Microsoft     [92m     18.0%[0m     -3.5%
+Amazon             -7.3%    -12.6%
+Meta               -6.7%     -9.0%
+Alphabet      [92m     12.0%[0m     -4.7%
+AMD           [92m     14.6%[0m     -4.6%
+Netflix            -4.0%     -7.0%
+Visa               -9.0%    -10.2%
+Mastercard        -13.5%    -13.8%
+UnitedHealth  [92m      9.4%[0m     -5.3%
+Home Depot    [92m     11.1%[0m     -8.4%
+Bank of America[92m     10.7%[0m     -4.7%
+Coca-Cola     [92m      4.5%[0m     -5.6%
+Procter & Gamble[92m      6.3%[0m     -5.1%
+Walmart            -1.1%     -7.6%
+JPMorgan      [92m      0.4%[0m     -8.5%
+Exxon Mobil        -0.1%     -8.6%
+Eli Lilly     [92m     21.1%[0m     -4.6%
+20Y Treasury       -4.9%     -7.9%
+7-10Y Treasury[92m      1.4%[0m     -2.1%
+Euro               -7.5%     -8.7%
+Yen                -1.3%     -2.6%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+Pyramid ===
+=== Period: 2021-01-01 -> 2022-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -8.7%    -10.6%
+Palladium     [92m      2.9%[0m     -3.3%
+Zinc               -0.7%     -0.8%
+Aluminum      [92m     17.4%[0m     -6.9%
+Crude Oil     [92m     16.4%[0m     -6.6%
+Copper             -0.9%    -11.2%
+Brent Oil     [92m     10.3%[0m    -11.1%
+Natural Gas   [92m     23.6%[0m     -3.9%
+Heating Oil   [92m     10.6%[0m    -15.4%
+Gasoline      [92m      9.6%[0m    -15.8%
+Wheat         [92m      8.9%[0m     -6.7%
+Corn          [92m     15.9%[0m     -8.7%
+Soybeans      [92m      0.2%[0m     -8.7%
+Soybean Oil   [92m      7.6%[0m     -6.0%
+Soybean Meal       -4.0%    -13.1%
+Coffee        [92m      9.3%[0m     -6.0%
+Cocoa             -13.3%    -14.0%
+Sugar              -0.3%     -8.1%
+Cotton        [92m      6.5%[0m     -7.7%
+S&P 500            -3.2%     -7.3%
+Nasdaq        [92m      0.6%[0m     -5.5%
+Apple         [92m     13.7%[0m     -6.4%
+Tesla         [92m     18.7%[0m     -7.2%
+Nvidia        [92m     25.9%[0m     -3.6%
+Microsoft     [92m     17.3%[0m     -4.7%
+Amazon             -7.3%    -12.6%
+Meta               -6.3%     -8.6%
+Alphabet      [92m     15.1%[0m     -4.7%
+AMD           [92m     14.6%[0m     -4.6%
+Netflix            -3.9%     -7.0%
+Visa               -9.0%    -10.2%
+Mastercard        -13.6%    -13.9%
+UnitedHealth  [92m      7.5%[0m     -7.0%
+Home Depot    [92m      9.3%[0m     -9.9%
+Bank of America[92m     10.7%[0m     -4.7%
+Coca-Cola     [92m      0.7%[0m     -6.8%
+Procter & Gamble[92m      6.5%[0m     -6.6%
+Walmart            -3.4%     -9.8%
+JPMorgan      [92m      0.4%[0m     -8.5%
+Exxon Mobil   [92m      0.0%[0m     -8.6%
+Eli Lilly     [92m     17.6%[0m     -6.4%
+20Y Treasury       -4.9%     -7.9%
+7-10Y Treasury[92m      1.4%[0m     -2.1%
+Euro               -6.8%     -8.0%
+Yen                -1.3%     -2.6%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base ===
+=== Period: 2022-01-01 -> 2023-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -3.2%    -12.2%
+Palladium         -29.1%[91m    -50.8%[0m
+Zinc               -3.8%     -5.7%
+Aluminum           -6.3%    -33.4%
+Crude Oil          -7.3%[91m    -43.7%[0m
+Copper            -31.1%    -34.3%
+Brent Oil          -0.7%    -39.7%
+Natural Gas       -24.9%[91m    -55.0%[0m
+Heating Oil       -14.1%[91m    -51.8%[0m
+Gasoline      [92m     27.9%[0m    -23.0%
+Wheat         [92m     11.6%[0m    -36.4%
+Corn          [92m     20.3%[0m    -12.8%
+Soybeans      [92m      1.1%[0m    -25.9%
+Soybean Oil   [92m     33.0%[0m    -15.0%
+Soybean Meal      -10.5%    -28.0%
+Coffee            -11.1%    -17.7%
+Cocoa             -28.9%    -32.3%
+Sugar             -17.8%    -21.0%
+Cotton        [92m     11.6%[0m    -16.2%
+S&P 500       [92m      3.6%[0m     -7.8%
+Nasdaq            -12.8%    -18.4%
+Apple              -6.9%    -14.8%
+Tesla              -1.8%    -21.0%
+Nvidia        [92m      1.5%[0m    -21.1%
+Microsoft         -16.1%    -22.1%
+Amazon        [92m     10.5%[0m     -9.1%
+Meta              -11.7%    -19.5%
+Alphabet          -32.6%    -32.6%
+AMD                -4.5%    -22.1%
+Netflix           -27.9%    -34.7%
+Visa              -15.7%    -18.5%
+Mastercard        -14.9%    -30.9%
+UnitedHealth      -15.9%    -15.9%
+Home Depot    [92m      7.3%[0m    -12.1%
+Bank of America     -4.0%    -17.5%
+Coca-Cola          -7.5%    -15.0%
+Procter & Gamble     -1.3%    -14.5%
+Walmart       [92m      7.1%[0m    -13.1%
+JPMorgan           -5.7%    -17.2%
+Exxon Mobil   [92m     30.2%[0m    -23.8%
+Eli Lilly     [92m      8.3%[0m    -13.1%
+20Y Treasury  [92m      6.2%[0m     -3.7%
+7-10Y Treasury     -2.5%     -5.7%
+Euro               -6.1%    -10.2%
+Yen                -1.4%     -7.4%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base LS ===
+=== Period: 2022-01-01 -> 2023-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -3.8%    -11.9%
+Palladium         -49.5%[91m    -65.3%[0m
+Zinc          [92m      7.1%[0m     -5.8%
+Aluminum           -3.9%    -31.7%
+Crude Oil         -16.8%[91m    -50.9%[0m
+Copper            -19.0%    -28.1%
+Brent Oil          -3.4%[91m    -44.4%[0m
+Natural Gas       -35.8%[91m    -55.0%[0m
+Heating Oil       -18.1%[91m    -56.7%[0m
+Gasoline      [92m     68.2%[0m    -27.5%
+Wheat         [92m     17.0%[0m[91m    -41.0%[0m
+Corn          [92m     39.7%[0m    -12.9%
+Soybeans          -11.6%    -35.3%
+Soybean Oil   [92m     31.7%[0m    -18.9%
+Soybean Meal      -13.3%    -31.6%
+Coffee             -1.4%    -27.2%
+Cocoa             -46.8%[91m    -49.4%[0m
+Sugar             -33.6%    -37.2%
+Cotton        [92m      5.8%[0m    -30.3%
+S&P 500            -2.2%    -12.6%
+Nasdaq            -13.7%    -26.8%
+Apple             -17.2%    -25.1%
+Tesla         [92m     43.2%[0m    -26.0%
+Nvidia        [92m     19.3%[0m    -36.9%
+Microsoft         -47.8%[91m    -55.2%[0m
+Amazon        [92m     18.0%[0m    -26.4%
+Meta              -29.2%[91m    -43.4%[0m
+Alphabet          -42.3%[91m    -50.5%[0m
+AMD           [92m     33.0%[0m[91m    -41.9%[0m
+Netflix            -1.1%[91m    -58.8%[0m
+Visa              -43.8%[91m    -46.7%[0m
+Mastercard        -21.1%    -39.0%
+UnitedHealth      -40.5%[91m    -40.5%[0m
+Home Depot    [92m     11.9%[0m    -17.9%
+Bank of America     -8.5%    -20.5%
+Coca-Cola         -10.6%    -22.5%
+Procter & Gamble[92m      9.9%[0m    -16.9%
+Walmart       [92m     15.1%[0m    -14.1%
+JPMorgan          -20.5%    -26.3%
+Exxon Mobil   [92m     10.0%[0m    -23.8%
+Eli Lilly         -22.0%    -28.5%
+20Y Treasury  [92m     39.7%[0m     -9.2%
+7-10Y Treasury[92m     10.4%[0m     -5.7%
+Euro               -8.5%    -12.4%
+Yen           [92m     15.5%[0m     -5.1%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+VT ===
+=== Period: 2022-01-01 -> 2023-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -7.1%    -11.7%
+Palladium          -9.4%    -13.5%
+Zinc                0.0%      0.0%
+Aluminum      [92m     12.1%[0m    -10.7%
+Crude Oil     [92m     12.4%[0m     -9.3%
+Copper            -17.8%    -18.0%
+Brent Oil     [92m      9.2%[0m    -14.2%
+Natural Gas   [92m      6.4%[0m     -6.9%
+Heating Oil   [92m      7.8%[0m    -14.6%
+Gasoline      [92m     27.7%[0m     -5.7%
+Wheat              -0.1%     -9.8%
+Corn          [92m      5.1%[0m     -7.4%
+Soybeans      [92m      5.4%[0m    -12.2%
+Soybean Oil   [92m     12.9%[0m     -7.7%
+Soybean Meal       -3.4%    -13.4%
+Coffee             -7.4%     -8.5%
+Cocoa             -11.6%    -14.8%
+Sugar             -12.6%    -12.8%
+Cotton        [92m      7.3%[0m     -4.2%
+S&P 500            -7.1%     -7.6%
+Nasdaq             -6.5%     -7.0%
+Apple              -3.4%     -5.6%
+Tesla              -7.5%     -7.5%
+Nvidia             -3.8%     -5.4%
+Microsoft          -6.4%     -7.0%
+Amazon             -2.1%     -2.6%
+Meta               -1.8%     -2.1%
+Alphabet           -6.2%     -6.2%
+AMD                -2.7%     -2.7%
+Netflix            -4.6%     -6.4%
+Visa               -5.1%     -5.4%
+Mastercard        -11.5%    -13.8%
+UnitedHealth      -12.3%    -12.4%
+Home Depot         -1.6%     -7.2%
+Bank of America     -4.4%     -8.1%
+Coca-Cola          -9.5%    -14.9%
+Procter & Gamble     -9.0%    -13.7%
+Walmart       [92m      6.2%[0m     -3.7%
+JPMorgan           -4.7%     -6.7%
+Exxon Mobil   [92m     14.4%[0m    -11.5%
+Eli Lilly     [92m      5.9%[0m     -7.2%
+20Y Treasury        0.0%      0.0%
+7-10Y Treasury      0.0%      0.0%
+Euro          [92m      3.8%[0m     -1.7%
+Yen           [92m      0.1%[0m     -3.9%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT ===
+=== Period: 2022-01-01 -> 2023-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -7.1%    -11.7%
+Palladium         -11.1%    -13.5%
+Zinc                0.0%      0.0%
+Aluminum      [92m     12.1%[0m    -10.7%
+Crude Oil     [92m     12.4%[0m     -9.3%
+Copper            -15.1%    -15.2%
+Brent Oil     [92m      9.2%[0m    -14.2%
+Natural Gas   [92m      6.4%[0m     -6.9%
+Heating Oil   [92m      5.5%[0m    -14.6%
+Gasoline      [92m     27.7%[0m     -5.7%
+Wheat              -0.1%     -9.8%
+Corn          [92m      4.2%[0m     -7.4%
+Soybeans      [92m      8.3%[0m     -9.9%
+Soybean Oil   [92m     12.9%[0m     -7.7%
+Soybean Meal       -3.4%    -13.4%
+Coffee             -7.4%     -8.5%
+Cocoa             -11.6%    -14.8%
+Sugar             -12.6%    -12.8%
+Cotton        [92m      7.3%[0m     -4.2%
+S&P 500            -7.1%     -7.6%
+Nasdaq             -6.5%     -7.0%
+Apple              -3.4%     -5.6%
+Tesla              -7.5%     -7.5%
+Nvidia             -3.8%     -5.4%
+Microsoft          -6.4%     -7.0%
+Amazon             -2.1%     -2.6%
+Meta               -1.8%     -2.1%
+Alphabet           -6.2%     -6.2%
+AMD                -2.7%     -2.7%
+Netflix            -5.3%     -7.2%
+Visa               -5.3%     -5.6%
+Mastercard        -11.3%    -12.6%
+UnitedHealth      -10.7%    -10.8%
+Home Depot         -1.6%     -7.2%
+Bank of America     -6.4%     -9.3%
+Coca-Cola         -10.8%    -16.1%
+Procter & Gamble    -10.0%    -13.7%
+Walmart       [92m      6.2%[0m     -3.7%
+JPMorgan           -6.6%     -7.2%
+Exxon Mobil   [92m     14.4%[0m    -11.5%
+Eli Lilly     [92m      5.3%[0m     -7.2%
+20Y Treasury        0.0%      0.0%
+7-10Y Treasury      0.0%      0.0%
+Euro          [92m      3.8%[0m     -1.7%
+Yen                -1.5%     -3.9%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT LS ===
+=== Period: 2022-01-01 -> 2023-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -7.6%    -12.5%
+Palladium         -19.2%    -21.6%
+Zinc          [92m     22.4%[0m     -5.7%
+Aluminum      [92m     13.0%[0m     -9.9%
+Crude Oil     [92m     10.6%[0m    -12.4%
+Copper             -9.4%    -13.3%
+Brent Oil     [92m      8.9%[0m    -16.7%
+Natural Gas   [92m      5.8%[0m    -10.6%
+Heating Oil   [92m      2.2%[0m    -17.4%
+Gasoline      [92m     30.7%[0m     -6.5%
+Wheat         [92m      3.4%[0m     -8.9%
+Corn          [92m      2.3%[0m     -9.2%
+Soybeans      [92m      3.4%[0m    -14.3%
+Soybean Oil   [92m      7.3%[0m    -10.2%
+Soybean Meal       -7.5%    -15.4%
+Coffee             -1.8%    -14.8%
+Cocoa             -18.1%    -21.1%
+Sugar             -26.6%    -27.9%
+Cotton        [92m      9.9%[0m     -8.2%
+S&P 500            -9.8%    -11.9%
+Nasdaq             -9.1%    -11.8%
+Apple              -9.6%    -12.4%
+Tesla              -0.5%     -7.9%
+Nvidia             -1.9%     -9.6%
+Microsoft         -25.5%    -26.6%
+Amazon        [92m      8.3%[0m    -10.7%
+Meta               -5.6%     -9.3%
+Alphabet           -8.7%    -15.1%
+AMD           [92m      4.2%[0m    -10.0%
+Netflix       [92m     17.1%[0m    -15.4%
+Visa              -20.8%    -23.4%
+Mastercard        -16.1%    -19.8%
+UnitedHealth      -21.4%    -21.4%
+Home Depot         -0.8%     -9.8%
+Bank of America     -9.7%    -12.6%
+Coca-Cola         -10.8%    -19.1%
+Procter & Gamble     -7.3%    -17.2%
+Walmart            -2.4%     -8.8%
+JPMorgan           -9.6%     -9.1%
+Exxon Mobil   [92m     14.4%[0m    -11.5%
+Eli Lilly          -0.2%     -7.2%
+20Y Treasury  [92m     19.3%[0m     -5.7%
+7-10Y Treasury[92m     24.6%[0m     -4.9%
+Euro          [92m      0.3%[0m     -9.7%
+Yen           [92m     22.2%[0m     -8.1%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+Pyramid ===
+=== Period: 2022-01-01 -> 2023-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -3.1%     -8.7%
+Palladium          -6.7%     -9.7%
+Zinc                0.0%      0.0%
+Aluminum      [92m     13.7%[0m     -9.4%
+Crude Oil     [92m     12.3%[0m     -8.9%
+Copper            -10.1%    -10.1%
+Brent Oil     [92m     11.7%[0m    -11.7%
+Natural Gas   [92m      7.6%[0m     -6.3%
+Heating Oil        -1.2%    -17.6%
+Gasoline      [92m     26.5%[0m     -5.8%
+Wheat         [92m      2.3%[0m     -8.7%
+Corn          [92m      5.5%[0m     -5.5%
+Soybeans      [92m     11.1%[0m     -7.2%
+Soybean Oil   [92m     11.8%[0m     -6.6%
+Soybean Meal       -3.1%    -10.4%
+Coffee             -9.6%     -9.9%
+Cocoa              -7.3%     -8.9%
+Sugar             -10.5%    -10.6%
+Cotton        [92m      4.0%[0m     -4.2%
+S&P 500            -9.0%     -9.5%
+Nasdaq             -4.9%     -5.2%
+Apple              -4.1%     -5.3%
+Tesla              -5.0%     -5.6%
+Nvidia             -5.2%     -6.1%
+Microsoft          -3.2%     -3.5%
+Amazon             -1.1%     -1.3%
+Meta               -0.9%     -1.0%
+Alphabet           -3.1%     -3.1%
+AMD                -1.4%     -1.4%
+Netflix            -3.8%     -5.0%
+Visa               -3.6%     -3.6%
+Mastercard         -6.0%     -6.5%
+UnitedHealth      -10.4%    -10.5%
+Home Depot         -2.7%     -6.7%
+Bank of America     -4.6%     -6.7%
+Coca-Cola          -7.0%    -11.7%
+Procter & Gamble     -5.3%     -8.7%
+Walmart       [92m      4.2%[0m     -3.7%
+JPMorgan           -4.2%     -4.5%
+Exxon Mobil   [92m      9.4%[0m    -10.8%
+Eli Lilly     [92m      5.2%[0m     -7.5%
+20Y Treasury        0.0%      0.0%
+7-10Y Treasury      0.0%      0.0%
+Euro          [92m      3.1%[0m     -0.8%
+Yen                -0.8%     -2.0%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+Pyramid ===
+=== Period: 2022-01-01 -> 2023-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -3.1%     -8.7%
+Palladium          -4.9%     -9.7%
+Zinc                0.0%      0.0%
+Aluminum      [92m     13.7%[0m     -9.4%
+Crude Oil     [92m     12.3%[0m     -8.9%
+Copper            -11.6%    -11.6%
+Brent Oil     [92m     11.7%[0m    -11.7%
+Natural Gas   [92m      7.6%[0m     -6.3%
+Heating Oil   [92m      2.4%[0m    -17.6%
+Gasoline      [92m     26.5%[0m     -5.8%
+Wheat         [92m      2.3%[0m     -8.7%
+Corn          [92m      6.8%[0m     -4.9%
+Soybeans      [92m      9.6%[0m     -8.4%
+Soybean Oil   [92m     11.8%[0m     -6.6%
+Soybean Meal       -3.1%    -10.4%
+Coffee             -9.6%     -9.9%
+Cocoa              -7.3%     -8.9%
+Sugar             -10.5%    -10.6%
+Cotton        [92m      4.0%[0m     -4.2%
+S&P 500            -9.0%     -9.5%
+Nasdaq             -4.9%     -5.2%
+Apple              -4.1%     -5.3%
+Tesla              -5.0%     -5.6%
+Nvidia             -5.2%     -6.1%
+Microsoft          -3.2%     -3.5%
+Amazon             -1.1%     -1.3%
+Meta               -0.9%     -1.0%
+Alphabet           -3.1%     -3.1%
+AMD                -1.4%     -1.4%
+Netflix            -3.4%     -4.6%
+Visa               -3.5%     -3.5%
+Mastercard         -8.2%     -9.6%
+UnitedHealth      -12.3%    -12.3%
+Home Depot         -2.7%     -6.7%
+Bank of America     -3.8%     -6.1%
+Coca-Cola          -6.3%    -11.1%
+Procter & Gamble     -4.6%     -8.7%
+Walmart       [92m      4.2%[0m     -3.7%
+JPMorgan           -2.2%     -3.4%
+Exxon Mobil   [92m      9.4%[0m    -10.8%
+Eli Lilly     [92m      5.5%[0m     -7.5%
+20Y Treasury        0.0%      0.0%
+7-10Y Treasury      0.0%      0.0%
+Euro          [92m      3.1%[0m     -0.8%
+Yen                -0.8%     -3.1%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base ===
+=== Period: 2023-01-01 -> 2024-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -1.1%    -11.8%
+Palladium         -13.3%    -21.0%
+Zinc          [92m      3.3%[0m     -2.9%
+Aluminum           -5.9%    -17.2%
+Crude Oil          -2.3%    -14.5%
+Copper             -3.1%    -11.5%
+Brent Oil     [92m      4.2%[0m     -7.1%
+Natural Gas       -48.1%[91m    -52.6%[0m
+Heating Oil        -4.7%    -18.3%
+Gasoline          -31.7%    -31.1%
+Wheat             -25.3%    -31.0%
+Corn               -8.9%    -14.5%
+Soybeans           -7.3%     -8.0%
+Soybean Oil   [92m      3.6%[0m    -18.1%
+Soybean Meal  [92m      7.9%[0m    -16.9%
+Coffee             -4.7%    -28.4%
+Cocoa         [92m      9.7%[0m    -16.9%
+Sugar              -0.7%    -17.3%
+Cotton            -25.2%    -26.8%
+S&P 500       [92m     16.7%[0m     -6.6%
+Nasdaq        [92m     27.6%[0m     -8.0%
+Apple         [92m     24.8%[0m    -13.5%
+Tesla         [92m     37.7%[0m    -29.4%
+Nvidia        [92m     76.0%[0m    -17.5%
+Microsoft     [92m     21.4%[0m    -14.8%
+Amazon        [92m     20.8%[0m    -16.1%
+Meta          [92m     71.5%[0m    -20.2%
+Alphabet      [92m      6.1%[0m    -12.0%
+AMD           [92m     58.3%[0m    -19.4%
+Netflix       [92m     22.3%[0m    -17.1%
+Visa          [92m     13.4%[0m     -4.8%
+Mastercard    [92m     13.4%[0m     -5.2%
+UnitedHealth       -3.2%    -15.3%
+Home Depot    [92m      2.5%[0m    -17.1%
+Bank of America[92m     10.9%[0m    -12.1%
+Coca-Cola     [92m      4.0%[0m     -7.5%
+Procter & Gamble     -0.3%     -9.3%
+Walmart            -8.0%    -10.9%
+JPMorgan      [92m     13.7%[0m    -12.9%
+Exxon Mobil        -7.5%    -17.1%
+Eli Lilly     [92m     20.1%[0m    -19.0%
+20Y Treasury  [92m      1.2%[0m    -11.0%
+7-10Y Treasury[92m      3.2%[0m     -4.4%
+Euro          [92m      0.6%[0m     -3.8%
+Yen           [92m      0.4%[0m     -7.4%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base LS ===
+=== Period: 2023-01-01 -> 2024-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      0.5%[0m    -11.0%
+Palladium         -27.1%[91m    -43.3%[0m
+Zinc          [92m      5.3%[0m     -3.2%
+Aluminum           -9.0%    -18.0%
+Crude Oil         -24.4%    -34.2%
+Copper            -15.1%    -16.1%
+Brent Oil         -19.0%    -22.3%
+Natural Gas       -39.6%[91m    -71.3%[0m
+Heating Oil        -1.3%    -17.8%
+Gasoline          -36.2%    -35.8%
+Wheat             -43.6%[91m    -46.3%[0m
+Corn              -12.5%    -27.8%
+Soybeans      [92m      0.9%[0m     -9.5%
+Soybean Oil   [92m     32.4%[0m    -17.4%
+Soybean Meal  [92m     28.5%[0m    -14.8%
+Coffee            -21.8%    -37.9%
+Cocoa             -10.0%    -24.4%
+Sugar              -6.9%    -32.9%
+Cotton            -33.4%    -35.5%
+S&P 500       [92m      9.2%[0m     -8.3%
+Nasdaq        [92m      8.8%[0m    -13.2%
+Apple         [92m     10.6%[0m    -21.9%
+Tesla         [92m      3.5%[0m    -38.6%
+Nvidia        [92m      7.2%[0m    -39.5%
+Microsoft     [92m      6.9%[0m    -17.5%
+Amazon        [92m      1.5%[0m    -23.6%
+Meta          [92m     39.6%[0m    -34.5%
+Alphabet          -14.5%    -25.0%
+AMD           [92m     11.1%[0m    -37.3%
+Netflix            -8.8%    -35.1%
+Visa               -2.2%    -15.1%
+Mastercard    [92m      3.5%[0m     -9.4%
+UnitedHealth      -17.7%    -26.7%
+Home Depot         -4.5%    -26.6%
+Bank of America[92m     15.0%[0m    -22.5%
+Coca-Cola     [92m     11.1%[0m    -12.3%
+Procter & Gamble[92m      2.5%[0m    -10.6%
+Walmart           -17.6%    -17.8%
+JPMorgan           -0.6%    -19.3%
+Exxon Mobil       -17.1%    -25.4%
+Eli Lilly     [92m     12.2%[0m    -23.8%
+20Y Treasury       -4.7%    -14.6%
+7-10Y Treasury     -3.3%     -8.4%
+Euro          [92m      2.4%[0m     -3.4%
+Yen           [92m      9.5%[0m     -4.8%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+VT ===
+=== Period: 2023-01-01 -> 2024-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -6.2%    -15.0%
+Palladium           0.0%      0.0%
+Zinc               -0.2%     -5.7%
+Aluminum           -4.8%     -8.0%
+Crude Oil     [92m      3.2%[0m     -4.0%
+Copper             -2.8%     -8.6%
+Brent Oil     [92m      0.7%[0m     -6.0%
+Natural Gas        -5.1%     -7.9%
+Heating Oil   [92m      4.7%[0m     -4.1%
+Gasoline           -6.3%     -7.5%
+Wheat              -3.9%     -5.1%
+Corn                0.0%      0.0%
+Soybeans          -10.2%     -8.4%
+Soybean Oil        -0.6%     -5.3%
+Soybean Meal       -7.6%    -11.2%
+Coffee        [92m      1.6%[0m     -4.1%
+Cocoa         [92m      8.3%[0m    -11.9%
+Sugar              -0.1%    -10.4%
+Cotton             -5.0%     -7.9%
+S&P 500       [92m     18.9%[0m     -7.1%
+Nasdaq        [92m     19.3%[0m     -6.1%
+Apple         [92m     11.1%[0m    -10.4%
+Tesla              -2.6%    -10.8%
+Nvidia        [92m     19.1%[0m     -8.1%
+Microsoft     [92m      8.2%[0m    -10.1%
+Amazon        [92m      6.0%[0m     -8.0%
+Meta          [92m     22.1%[0m    -10.6%
+Alphabet           -5.0%     -6.9%
+AMD           [92m      9.7%[0m     -6.3%
+Netflix       [92m      5.6%[0m     -9.1%
+Visa          [92m     10.1%[0m     -4.6%
+Mastercard    [92m     11.2%[0m     -4.8%
+UnitedHealth       -8.3%     -8.9%
+Home Depot         -0.5%     -8.3%
+Bank of America[92m      6.2%[0m     -4.3%
+Coca-Cola          -4.4%    -10.9%
+Procter & Gamble     -4.6%    -11.4%
+Walmart           -10.3%    -13.8%
+JPMorgan      [92m     17.0%[0m     -9.9%
+Exxon Mobil        -3.0%     -9.8%
+Eli Lilly     [92m     14.2%[0m     -9.7%
+20Y Treasury       -3.0%     -6.6%
+7-10Y Treasury     -1.7%     -7.6%
+Euro               -4.1%     -6.4%
+Yen                -0.3%     -4.0%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT ===
+=== Period: 2023-01-01 -> 2024-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -6.4%    -15.1%
+Palladium           0.0%      0.0%
+Zinc               -0.2%     -5.7%
+Aluminum           -4.8%     -8.0%
+Crude Oil     [92m      3.2%[0m     -4.0%
+Copper             -4.7%     -8.6%
+Brent Oil     [92m      0.7%[0m     -6.0%
+Natural Gas        -5.1%     -7.9%
+Heating Oil   [92m      4.7%[0m     -4.1%
+Gasoline           -6.3%     -7.5%
+Wheat              -3.9%     -5.1%
+Corn                0.0%      0.0%
+Soybeans          -10.2%     -8.4%
+Soybean Oil        -0.9%     -5.5%
+Soybean Meal       -3.3%     -7.0%
+Coffee        [92m      1.6%[0m     -4.1%
+Cocoa         [92m      7.6%[0m    -12.5%
+Sugar              -0.1%    -10.4%
+Cotton             -5.0%     -7.9%
+S&P 500       [92m     17.6%[0m     -6.4%
+Nasdaq        [92m     16.2%[0m     -5.3%
+Apple         [92m     14.0%[0m    -10.4%
+Tesla              -0.9%    -11.0%
+Nvidia        [92m     16.3%[0m     -8.2%
+Microsoft     [92m      6.7%[0m    -10.1%
+Amazon        [92m      4.3%[0m     -9.0%
+Meta          [92m     25.5%[0m     -7.5%
+Alphabet           -5.0%     -6.9%
+AMD           [92m      9.5%[0m     -6.3%
+Netflix            -0.4%    -11.3%
+Visa          [92m     10.1%[0m     -4.6%
+Mastercard    [92m     11.2%[0m     -4.8%
+UnitedHealth       -0.7%     -5.2%
+Home Depot         -3.0%     -9.3%
+Bank of America[92m      5.7%[0m     -3.6%
+Coca-Cola          -4.4%    -10.9%
+Procter & Gamble     -1.7%     -8.7%
+Walmart           -10.3%    -13.8%
+JPMorgan      [92m     15.7%[0m    -10.6%
+Exxon Mobil        -3.0%     -9.8%
+Eli Lilly     [92m      9.9%[0m    -10.0%
+20Y Treasury       -3.0%     -6.6%
+7-10Y Treasury     -2.3%     -8.2%
+Euro               -5.5%     -6.4%
+Yen                -0.3%     -4.0%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT LS ===
+=== Period: 2023-01-01 -> 2024-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -8.5%    -17.0%
+Palladium          -4.9%    -12.8%
+Zinc          [92m      1.4%[0m     -9.5%
+Aluminum           -9.3%    -12.9%
+Crude Oil          -6.8%    -10.3%
+Copper             -7.9%    -12.2%
+Brent Oil          -7.0%     -9.7%
+Natural Gas        -3.7%    -15.9%
+Heating Oil   [92m      4.2%[0m     -6.5%
+Gasoline          -10.7%    -11.1%
+Wheat             -13.2%    -17.2%
+Corn               -4.5%     -9.9%
+Soybeans           -6.2%    -11.9%
+Soybean Oil   [92m      9.7%[0m     -6.8%
+Soybean Meal  [92m      4.0%[0m     -9.4%
+Coffee             -6.6%    -12.4%
+Cocoa         [92m      7.6%[0m    -12.5%
+Sugar              -2.7%    -16.2%
+Cotton             -9.4%    -16.4%
+S&P 500       [92m      6.7%[0m    -11.6%
+Nasdaq        [92m     11.3%[0m     -8.4%
+Apple         [92m      4.8%[0m    -16.5%
+Tesla              -7.3%    -13.1%
+Nvidia        [92m     14.1%[0m     -8.2%
+Microsoft     [92m      3.6%[0m    -10.1%
+Amazon             -2.5%    -12.6%
+Meta          [92m     25.5%[0m     -7.5%
+Alphabet           -7.1%     -9.5%
+AMD           [92m      2.1%[0m    -11.4%
+Netflix            -8.7%    -18.7%
+Visa          [92m     10.1%[0m     -4.6%
+Mastercard    [92m      6.2%[0m     -6.7%
+UnitedHealth       -9.3%    -11.6%
+Home Depot         -8.3%    -13.7%
+Bank of America[92m      7.9%[0m    -13.1%
+Coca-Cola     [92m      3.8%[0m    -13.3%
+Procter & Gamble     -5.0%    -10.3%
+Walmart           -13.0%    -14.9%
+JPMorgan      [92m     14.9%[0m    -10.6%
+Exxon Mobil       -15.1%    -21.0%
+Eli Lilly     [92m      6.7%[0m    -10.0%
+20Y Treasury       -8.7%    -11.6%
+7-10Y Treasury    -14.0%    -17.6%
+Euro               -5.1%     -7.3%
+Yen           [92m      9.8%[0m     -5.8%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+Pyramid ===
+=== Period: 2023-01-01 -> 2024-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -4.7%    -11.9%
+Palladium           0.0%      0.0%
+Zinc          [92m      0.8%[0m     -2.9%
+Aluminum           -5.2%     -7.4%
+Crude Oil     [92m      1.7%[0m     -4.0%
+Copper             -4.4%     -7.2%
+Brent Oil          -0.6%     -6.0%
+Natural Gas        -5.4%     -6.2%
+Heating Oil   [92m      6.1%[0m     -3.4%
+Gasoline           -5.5%     -5.7%
+Wheat              -1.9%     -2.6%
+Corn                0.0%      0.0%
+Soybeans           -5.2%     -4.3%
+Soybean Oil        -0.5%     -4.0%
+Soybean Meal       -5.2%     -8.3%
+Coffee        [92m      1.5%[0m     -3.7%
+Cocoa         [92m      5.2%[0m    -10.8%
+Sugar         [92m      0.3%[0m     -9.8%
+Cotton             -3.9%     -5.8%
+S&P 500       [92m     14.5%[0m     -6.0%
+Nasdaq        [92m     11.3%[0m     -4.9%
+Apple         [92m     16.4%[0m     -6.7%
+Tesla         [92m      0.4%[0m     -9.6%
+Nvidia        [92m     11.4%[0m     -9.9%
+Microsoft     [92m      4.0%[0m     -8.8%
+Amazon        [92m      6.4%[0m     -5.3%
+Meta          [92m     22.7%[0m     -7.2%
+Alphabet           -4.2%     -6.4%
+AMD           [92m      7.4%[0m     -4.9%
+Netflix       [92m      1.5%[0m     -7.0%
+Visa          [92m      6.0%[0m     -5.3%
+Mastercard    [92m      8.1%[0m     -4.6%
+UnitedHealth       -1.6%     -5.7%
+Home Depot    [92m      1.6%[0m     -6.1%
+Bank of America[92m      3.0%[0m     -4.6%
+Coca-Cola          -4.7%    -10.5%
+Procter & Gamble     -2.1%     -8.5%
+Walmart           -13.1%    -16.8%
+JPMorgan      [92m     13.4%[0m     -9.7%
+Exxon Mobil        -1.8%     -8.0%
+Eli Lilly     [92m     12.6%[0m     -7.1%
+20Y Treasury       -2.3%     -4.9%
+7-10Y Treasury     -0.8%     -5.6%
+Euro               -8.5%     -7.5%
+Yen                -0.5%     -3.0%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+Pyramid ===
+=== Period: 2023-01-01 -> 2024-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -4.7%    -11.8%
+Palladium           0.0%      0.0%
+Zinc          [92m      0.8%[0m     -2.9%
+Aluminum           -5.2%     -7.4%
+Crude Oil     [92m      1.7%[0m     -4.0%
+Copper             -2.3%     -7.2%
+Brent Oil          -0.6%     -6.0%
+Natural Gas        -5.4%     -6.2%
+Heating Oil   [92m      6.1%[0m     -3.4%
+Gasoline           -5.5%     -5.7%
+Wheat              -1.9%     -2.6%
+Corn                0.0%      0.0%
+Soybeans           -5.2%     -4.2%
+Soybean Oil        -0.4%     -3.9%
+Soybean Meal       -7.3%    -10.4%
+Coffee        [92m      1.5%[0m     -3.7%
+Cocoa         [92m      5.6%[0m    -10.5%
+Sugar         [92m      0.3%[0m     -9.8%
+Cotton             -3.9%     -5.8%
+S&P 500       [92m     16.3%[0m     -6.3%
+Nasdaq        [92m     14.9%[0m     -5.8%
+Apple         [92m     15.0%[0m     -6.7%
+Tesla              -0.3%     -9.4%
+Nvidia        [92m     13.4%[0m     -9.7%
+Microsoft     [92m      5.4%[0m     -8.8%
+Amazon        [92m      5.8%[0m     -5.8%
+Meta          [92m     21.4%[0m     -8.7%
+Alphabet           -4.2%     -6.4%
+AMD           [92m      7.5%[0m     -4.9%
+Netflix       [92m      1.7%[0m     -7.2%
+Visa          [92m      6.0%[0m     -5.3%
+Mastercard    [92m      8.1%[0m     -4.6%
+UnitedHealth       -5.4%     -7.2%
+Home Depot    [92m      4.0%[0m     -4.8%
+Bank of America[92m      3.6%[0m     -5.0%
+Coca-Cola          -4.7%    -10.5%
+Procter & Gamble     -3.5%     -9.8%
+Walmart           -13.1%    -16.8%
+JPMorgan      [92m     15.1%[0m     -9.6%
+Exxon Mobil        -1.8%     -8.0%
+Eli Lilly     [92m     15.5%[0m     -7.1%
+20Y Treasury       -2.3%     -4.9%
+7-10Y Treasury     -0.2%     -5.0%
+Euro               -7.2%     -7.5%
+Yen                -0.5%     -3.0%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base ===
+=== Period: 2024-01-01 -> 2025-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      1.3%[0m     -9.6%
+Palladium         -26.6%    -29.7%
+Zinc               -4.1%     -6.0%
+Aluminum      [92m      0.2%[0m    -14.4%
+Crude Oil         -11.2%    -14.9%
+Copper        [92m      6.9%[0m    -12.4%
+Brent Oil         -10.7%    -11.9%
+Natural Gas   [92m     56.8%[0m    -34.9%
+Heating Oil       -11.6%    -13.8%
+Gasoline           -8.2%    -12.4%
+Wheat         [92m      9.9%[0m     -6.2%
+Corn          [92m      5.7%[0m     -7.5%
+Soybeans           -3.1%     -7.0%
+Soybean Oil       -17.1%    -19.4%
+Soybean Meal      -10.8%    -21.7%
+Coffee             -9.0%    -33.4%
+Cocoa         [92m    107.9%[0m    -37.4%
+Sugar         [92m      1.2%[0m    -17.1%
+Cotton             -0.5%    -22.3%
+S&P 500       [92m      2.8%[0m     -7.4%
+Nasdaq        [92m      0.1%[0m    -10.9%
+Apple         [92m     14.3%[0m    -11.2%
+Tesla         [92m     62.4%[0m    -22.9%
+Nvidia        [92m     73.6%[0m    -19.0%
+Microsoft     [92m      2.2%[0m     -9.9%
+Amazon        [92m      7.9%[0m    -11.2%
+Meta          [92m     45.5%[0m     -8.1%
+Alphabet      [92m     18.0%[0m     -9.3%
+AMD               -12.3%    -25.6%
+Netflix       [92m     11.6%[0m    -12.5%
+Visa          [92m     11.5%[0m     -9.4%
+Mastercard         -1.6%    -12.3%
+UnitedHealth      -11.4%    -16.9%
+Home Depot    [92m      3.2%[0m    -17.2%
+Bank of America     -6.0%    -16.4%
+Coca-Cola          -2.9%    -12.6%
+Procter & Gamble     -4.1%    -12.7%
+Walmart       [92m     61.6%[0m     -4.0%
+JPMorgan      [92m     15.8%[0m     -6.5%
+Exxon Mobil   [92m      1.3%[0m    -11.1%
+Eli Lilly     [92m     16.7%[0m    -15.5%
+20Y Treasury       -5.6%     -6.2%
+7-10Y Treasury     -1.4%     -5.7%
+Euro               -2.7%     -2.6%
+Yen           [92m      1.0%[0m     -4.8%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base LS ===
+=== Period: 2024-01-01 -> 2025-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold               -9.1%    -14.3%
+Palladium         -51.2%[91m    -53.8%[0m
+Zinc               -3.2%     -7.9%
+Aluminum           -3.9%    -13.7%
+Crude Oil         -23.1%    -28.4%
+Copper        [92m      0.1%[0m    -13.7%
+Brent Oil         -23.6%    -24.6%
+Natural Gas       -16.0%[91m    -52.6%[0m
+Heating Oil       -17.2%    -19.8%
+Gasoline      [92m      4.8%[0m    -18.4%
+Wheat         [92m      5.0%[0m    -17.5%
+Corn          [92m     18.0%[0m    -12.2%
+Soybeans      [92m     14.9%[0m    -11.4%
+Soybean Oil       -32.0%    -35.3%
+Soybean Meal       -6.5%    -23.4%
+Coffee            -32.1%[91m    -44.9%[0m
+Cocoa         [92m     10.7%[0m[91m    -64.7%[0m
+Sugar              -8.7%    -18.8%
+Cotton             -6.5%    -35.6%
+S&P 500            -1.7%    -13.6%
+Nasdaq             -3.8%    -14.9%
+Apple              -6.3%    -22.5%
+Tesla         [92m     20.0%[0m[91m    -42.6%[0m
+Nvidia        [92m     16.1%[0m    -38.3%
+Microsoft          -5.4%    -16.9%
+Amazon             -2.7%    -20.7%
+Meta          [92m     14.5%[0m    -22.4%
+Alphabet      [92m      9.6%[0m    -13.4%
+AMD               -25.4%[91m    -40.2%[0m
+Netflix       [92m      7.8%[0m    -15.1%
+Visa          [92m      2.5%[0m    -14.1%
+Mastercard        -10.3%    -17.7%
+UnitedHealth      -21.7%    -28.8%
+Home Depot         -0.7%    -20.5%
+Bank of America    -15.1%    -21.8%
+Coca-Cola          -1.3%    -18.1%
+Procter & Gamble    -21.2%    -27.6%
+Walmart       [92m     41.5%[0m     -9.7%
+JPMorgan           -3.8%    -18.8%
+Exxon Mobil        -7.7%    -19.8%
+Eli Lilly     [92m      8.2%[0m    -21.8%
+20Y Treasury       -4.0%     -8.1%
+7-10Y Treasury     -0.1%     -6.6%
+Euro               -1.9%     -3.8%
+Yen           [92m      6.6%[0m     -5.2%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+VT ===
+=== Period: 2024-01-01 -> 2025-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      6.5%[0m     -9.6%
+Palladium          -4.9%     -6.3%
+Zinc               -3.3%     -6.9%
+Aluminum      [92m      7.0%[0m    -10.3%
+Crude Oil          -3.4%     -5.9%
+Copper        [92m      8.2%[0m     -6.4%
+Brent Oil          -0.6%     -5.3%
+Natural Gas   [92m      2.2%[0m     -6.5%
+Heating Oil         0.0%      0.0%
+Gasoline           -2.5%     -3.5%
+Wheat         [92m      2.2%[0m     -3.8%
+Corn               -1.0%     -7.8%
+Soybeans           -2.6%     -2.6%
+Soybean Oil        -0.6%     -4.1%
+Soybean Meal      -11.0%    -11.0%
+Coffee             -1.8%    -15.8%
+Cocoa         [92m     38.2%[0m    -10.8%
+Sugar         [92m      1.1%[0m     -1.8%
+Cotton        [92m     13.8%[0m     -5.0%
+S&P 500       [92m      2.3%[0m    -11.7%
+Nasdaq             -0.6%    -11.5%
+Apple         [92m      6.8%[0m     -7.2%
+Tesla         [92m     15.0%[0m     -5.0%
+Nvidia        [92m     22.1%[0m     -6.6%
+Microsoft     [92m      0.3%[0m     -9.7%
+Amazon        [92m      8.2%[0m     -7.9%
+Meta          [92m     27.8%[0m     -4.3%
+Alphabet      [92m     12.3%[0m     -8.0%
+AMD                -2.4%     -6.7%
+Netflix       [92m      0.3%[0m     -8.7%
+Visa          [92m      9.6%[0m     -9.4%
+Mastercard         -5.5%    -14.6%
+UnitedHealth       -6.9%    -12.4%
+Home Depot    [92m      4.0%[0m    -13.7%
+Bank of America     -4.0%    -11.2%
+Coca-Cola          -5.6%    -16.4%
+Procter & Gamble    -10.0%    -16.7%
+Walmart       [92m     56.7%[0m     -3.7%
+JPMorgan      [92m     16.9%[0m     -4.5%
+Exxon Mobil   [92m      4.1%[0m     -9.1%
+Eli Lilly     [92m     11.2%[0m    -12.6%
+20Y Treasury       -7.1%     -7.0%
+7-10Y Treasury     -1.7%     -9.7%
+Euro               -8.1%     -7.1%
+Yen           [92m      0.7%[0m     -4.4%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT ===
+=== Period: 2024-01-01 -> 2025-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      4.4%[0m     -9.6%
+Palladium          -4.9%     -6.3%
+Zinc               -5.1%     -7.4%
+Aluminum      [92m      7.0%[0m    -10.3%
+Crude Oil          -3.4%     -5.9%
+Copper        [92m      8.2%[0m     -6.4%
+Brent Oil          -0.2%     -3.9%
+Natural Gas   [92m      2.2%[0m     -6.5%
+Heating Oil         0.0%      0.0%
+Gasoline           -2.5%     -3.5%
+Wheat         [92m      2.2%[0m     -3.8%
+Corn               -1.0%     -7.8%
+Soybeans           -2.6%     -2.6%
+Soybean Oil        -0.6%     -4.1%
+Soybean Meal      -11.0%    -11.0%
+Coffee             -1.8%    -15.8%
+Cocoa         [92m     46.4%[0m     -7.1%
+Sugar         [92m      1.1%[0m     -1.8%
+Cotton        [92m     13.8%[0m     -5.0%
+S&P 500       [92m      0.3%[0m    -13.0%
+Nasdaq             -2.0%     -9.3%
+Apple         [92m      5.8%[0m     -7.2%
+Tesla         [92m     15.0%[0m     -5.0%
+Nvidia        [92m     21.0%[0m     -7.4%
+Microsoft     [92m      0.3%[0m     -9.7%
+Amazon        [92m      5.1%[0m     -9.1%
+Meta          [92m     25.2%[0m     -4.3%
+Alphabet      [92m      7.9%[0m     -8.0%
+AMD                -6.1%     -6.9%
+Netflix            -1.9%     -9.8%
+Visa          [92m      8.3%[0m     -9.4%
+Mastercard         -8.2%    -16.5%
+UnitedHealth       -9.3%    -13.9%
+Home Depot    [92m      2.6%[0m    -13.7%
+Bank of America     -6.0%    -11.2%
+Coca-Cola          -2.9%    -14.0%
+Procter & Gamble     -3.5%    -12.0%
+Walmart       [92m     54.1%[0m     -4.7%
+JPMorgan      [92m     14.2%[0m     -4.6%
+Exxon Mobil   [92m      7.9%[0m     -5.8%
+Eli Lilly     [92m     13.8%[0m    -12.6%
+20Y Treasury       -7.9%     -7.8%
+7-10Y Treasury     -1.7%     -9.7%
+Euro               -8.1%     -7.1%
+Yen           [92m      0.7%[0m     -4.4%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT LS ===
+=== Period: 2024-01-01 -> 2025-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      4.4%[0m     -9.6%
+Palladium         -18.3%    -19.9%
+Zinc               -6.6%     -9.6%
+Aluminum      [92m      9.9%[0m     -8.7%
+Crude Oil         -13.0%    -15.2%
+Copper             -0.9%    -13.7%
+Brent Oil          -8.7%    -13.6%
+Natural Gas        -4.5%    -11.3%
+Heating Oil        -3.3%     -7.6%
+Gasoline      [92m      2.0%[0m     -6.3%
+Wheat              -0.1%     -9.4%
+Corn          [92m      8.0%[0m    -12.6%
+Soybeans      [92m     10.2%[0m     -8.5%
+Soybean Oil       -13.1%    -14.4%
+Soybean Meal       -7.7%    -16.6%
+Coffee             -1.8%    -15.8%
+Cocoa         [92m     30.6%[0m    -15.7%
+Sugar              -0.9%     -5.3%
+Cotton        [92m     10.5%[0m    -10.2%
+S&P 500       [92m      0.3%[0m    -13.0%
+Nasdaq             -2.0%     -9.3%
+Apple         [92m      5.1%[0m     -7.9%
+Tesla         [92m     10.6%[0m    -11.6%
+Nvidia        [92m     21.0%[0m     -7.4%
+Microsoft          -3.9%    -13.5%
+Amazon        [92m      0.7%[0m    -10.0%
+Meta          [92m     25.2%[0m     -4.3%
+Alphabet      [92m      6.6%[0m     -8.0%
+AMD                -6.1%    -10.2%
+Netflix            -1.9%     -9.8%
+Visa          [92m      1.6%[0m    -14.6%
+Mastercard        -16.3%    -23.9%
+UnitedHealth      -18.5%    -18.8%
+Home Depot         -0.2%    -16.1%
+Bank of America     -6.0%    -11.2%
+Coca-Cola          -4.2%    -14.0%
+Procter & Gamble     -9.1%    -16.3%
+Walmart       [92m     54.1%[0m     -4.7%
+JPMorgan      [92m     14.2%[0m     -4.6%
+Exxon Mobil   [92m      7.5%[0m     -5.8%
+Eli Lilly     [92m     15.2%[0m    -13.3%
+20Y Treasury       -6.7%     -8.2%
+7-10Y Treasury     -4.7%    -10.4%
+Euro              -13.1%    -14.0%
+Yen           [92m      3.4%[0m     -6.4%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+Pyramid ===
+=== Period: 2024-01-01 -> 2025-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      7.7%[0m     -7.9%
+Palladium          -6.4%     -7.1%
+Zinc               -3.1%     -4.3%
+Aluminum      [92m      7.2%[0m    -10.0%
+Crude Oil          -2.0%     -4.8%
+Copper        [92m      7.5%[0m     -5.3%
+Brent Oil          -0.1%     -3.9%
+Natural Gas   [92m      2.9%[0m     -3.3%
+Heating Oil         0.0%      0.0%
+Gasoline           -2.3%     -3.4%
+Wheat         [92m      1.2%[0m     -4.3%
+Corn               -0.2%     -6.6%
+Soybeans           -1.3%     -1.3%
+Soybean Oil        -2.2%     -4.1%
+Soybean Meal       -5.6%     -5.6%
+Coffee        [92m      0.3%[0m    -14.0%
+Cocoa         [92m     44.1%[0m     -5.8%
+Sugar         [92m      0.3%[0m     -1.8%
+Cotton        [92m     13.0%[0m     -5.0%
+S&P 500            -3.0%    -13.7%
+Nasdaq             -2.1%     -7.7%
+Apple         [92m      8.2%[0m     -5.8%
+Tesla         [92m     11.9%[0m     -3.9%
+Nvidia        [92m     20.4%[0m     -6.0%
+Microsoft     [92m      0.7%[0m     -7.7%
+Amazon        [92m      1.3%[0m     -6.9%
+Meta          [92m     19.4%[0m     -4.8%
+Alphabet      [92m      3.0%[0m     -7.8%
+AMD                -9.5%     -9.0%
+Netflix            -4.1%    -10.6%
+Visa          [92m      4.8%[0m     -9.6%
+Mastercard         -4.6%    -12.4%
+UnitedHealth      -10.7%    -13.8%
+Home Depot    [92m      0.9%[0m    -13.3%
+Bank of America     -5.6%    -10.4%
+Coca-Cola     [92m      1.8%[0m     -8.5%
+Procter & Gamble     -4.8%     -9.2%
+Walmart       [92m     45.8%[0m     -3.7%
+JPMorgan      [92m      9.7%[0m     -4.8%
+Exxon Mobil   [92m      5.2%[0m     -7.6%
+Eli Lilly     [92m     13.2%[0m    -11.9%
+20Y Treasury       -6.5%     -6.2%
+7-10Y Treasury     -2.6%     -8.6%
+Euro               -7.1%     -6.1%
+Yen                -0.7%     -4.4%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+Pyramid ===
+=== Period: 2024-01-01 -> 2025-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      9.6%[0m     -7.9%
+Palladium          -6.4%     -7.1%
+Zinc               -1.5%     -4.4%
+Aluminum      [92m      7.2%[0m    -10.0%
+Crude Oil          -2.0%     -4.8%
+Copper        [92m      7.5%[0m     -5.3%
+Brent Oil          -0.7%     -5.7%
+Natural Gas   [92m      2.9%[0m     -3.3%
+Heating Oil         0.0%      0.0%
+Gasoline           -2.3%     -3.4%
+Wheat         [92m      1.2%[0m     -4.3%
+Corn               -0.2%     -6.6%
+Soybeans           -1.3%     -1.3%
+Soybean Oil        -2.2%     -4.1%
+Soybean Meal       -5.6%     -5.6%
+Coffee        [92m      0.3%[0m    -14.0%
+Cocoa         [92m     38.4%[0m     -8.3%
+Sugar         [92m      0.3%[0m     -1.8%
+Cotton        [92m     13.0%[0m     -5.0%
+S&P 500            -1.8%    -12.9%
+Nasdaq             -1.3%    -10.2%
+Apple         [92m      9.2%[0m     -5.8%
+Tesla         [92m     11.9%[0m     -3.9%
+Nvidia        [92m     21.0%[0m     -5.6%
+Microsoft     [92m      0.7%[0m     -7.7%
+Amazon        [92m      2.8%[0m     -6.0%
+Meta          [92m     22.0%[0m     -4.8%
+Alphabet      [92m      7.8%[0m     -7.8%
+AMD                -5.8%     -8.2%
+Netflix            -3.1%     -9.7%
+Visa          [92m      5.7%[0m     -9.3%
+Mastercard         -3.9%    -12.1%
+UnitedHealth      -11.0%    -13.8%
+Home Depot    [92m      2.5%[0m    -13.3%
+Bank of America     -3.9%    -10.4%
+Coca-Cola     [92m      0.4%[0m     -9.8%
+Procter & Gamble     -7.2%    -11.3%
+Walmart       [92m     48.5%[0m     -3.9%
+JPMorgan      [92m     12.4%[0m     -4.8%
+Exxon Mobil   [92m      3.4%[0m     -9.2%
+Eli Lilly     [92m     11.9%[0m    -11.9%
+20Y Treasury       -5.5%     -5.1%
+7-10Y Treasury     -2.6%     -8.6%
+Euro               -7.1%     -6.1%
+Yen                -0.7%     -4.4%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base ===
+=== Period: 2025-01-01 -> 2026-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     13.0%[0m    -16.8%
+Palladium     [92m     41.3%[0m    -20.4%
+Zinc               -5.3%     -5.7%
+Aluminum           -9.4%    -18.5%
+Crude Oil         -16.7%    -25.4%
+Copper        [92m      1.1%[0m    -26.0%
+Brent Oil         -20.1%    -27.9%
+Natural Gas       -42.6%[91m    -46.7%[0m
+Heating Oil        -9.4%    -22.0%
+Gasoline          -19.5%    -23.7%
+Wheat             -17.5%    -20.7%
+Corn          [92m      6.0%[0m     -7.2%
+Soybeans           -8.3%    -21.3%
+Soybean Oil   [92m      1.4%[0m    -11.3%
+Soybean Meal       -6.2%    -14.9%
+Coffee        [92m      9.9%[0m    -24.5%
+Cocoa             -43.5%[91m    -45.7%[0m
+Sugar             -19.3%    -26.8%
+Cotton            -21.1%    -22.5%
+S&P 500       [92m      8.4%[0m     -6.0%
+Nasdaq        [92m     10.3%[0m     -5.9%
+Apple         [92m      3.6%[0m     -5.6%
+Tesla         [92m     21.0%[0m    -19.2%
+Nvidia        [92m     21.8%[0m    -14.7%
+Microsoft     [92m     17.1%[0m     -7.8%
+Amazon        [92m      1.5%[0m    -14.2%
+Meta          [92m      7.9%[0m    -22.9%
+Alphabet      [92m     46.4%[0m    -16.3%
+AMD           [92m    111.6%[0m    -11.7%
+Netflix            -3.5%    -18.2%
+Visa          [92m      1.0%[0m    -12.3%
+Mastercard         -4.2%    -10.2%
+UnitedHealth       -9.5%    -31.7%
+Home Depot    [92m      4.3%[0m    -11.0%
+Bank of America[92m     16.3%[0m     -6.3%
+Coca-Cola          -6.7%    -17.7%
+Procter & Gamble    -12.9%    -13.6%
+Walmart       [92m      2.6%[0m    -17.1%
+JPMorgan      [92m     24.9%[0m     -8.6%
+Exxon Mobil       -26.4%    -26.9%
+Eli Lilly          -5.6%    -24.6%
+20Y Treasury       -9.0%    -10.9%
+7-10Y Treasury     -2.7%     -4.2%
+Euro          [92m      4.5%[0m     -2.6%
+Yen                -1.2%     -8.3%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Base LS ===
+=== Period: 2025-01-01 -> 2026-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m      6.4%[0m    -21.7%
+Palladium     [92m      0.6%[0m    -30.7%
+Zinc              -11.2%    -12.4%
+Aluminum          -10.8%    -24.4%
+Crude Oil         -25.0%    -33.9%
+Copper            -17.9%    -35.0%
+Brent Oil         -25.5%    -33.8%
+Natural Gas       -58.5%[91m    -58.8%[0m
+Heating Oil       -16.5%    -35.5%
+Gasoline          -19.8%    -31.8%
+Wheat             -28.6%    -33.1%
+Corn          [92m      7.6%[0m    -13.5%
+Soybeans           -4.3%    -22.3%
+Soybean Oil       -23.5%    -32.3%
+Soybean Meal      -17.3%    -26.2%
+Coffee        [92m     15.1%[0m    -34.8%
+Cocoa             -22.9%    -39.0%
+Sugar             -29.8%    -36.0%
+Cotton            -35.6%[91m    -40.5%[0m
+S&P 500       [92m      1.3%[0m    -12.7%
+Nasdaq        [92m      1.3%[0m    -13.0%
+Apple             -16.6%    -27.2%
+Tesla              -0.6%[91m    -46.8%[0m
+Nvidia            -21.1%    -31.3%
+Microsoft     [92m      8.5%[0m    -15.5%
+Amazon            -19.5%    -28.8%
+Meta               -3.8%    -33.7%
+Alphabet      [92m     32.0%[0m    -25.1%
+AMD           [92m     69.6%[0m    -27.1%
+Netflix           -22.1%    -37.0%
+Visa              -23.6%    -30.3%
+Mastercard        -25.3%    -25.7%
+UnitedHealth  [92m     19.2%[0m    -24.9%
+Home Depot    [92m      8.1%[0m    -19.7%
+Bank of America     -1.8%    -18.4%
+Coca-Cola         -16.8%    -26.9%
+Procter & Gamble    -25.2%    -29.2%
+Walmart           -24.8%    -33.7%
+JPMorgan      [92m      2.0%[0m    -22.1%
+Exxon Mobil       -38.6%    -38.8%
+Eli Lilly         -47.0%[91m    -54.8%[0m
+20Y Treasury      -22.5%    -24.3%
+7-10Y Treasury     -6.2%     -7.5%
+Euro               -0.1%     -4.9%
+Yen               -10.1%    -15.8%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+VT ===
+=== Period: 2025-01-01 -> 2026-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     20.3%[0m    -11.3%
+Palladium     [92m     23.4%[0m     -6.7%
+Zinc              -10.9%    -11.0%
+Aluminum           -7.7%    -15.7%
+Crude Oil          -9.1%    -13.8%
+Copper        [92m      4.0%[0m     -9.5%
+Brent Oil         -10.9%    -12.6%
+Natural Gas        -7.5%     -8.8%
+Heating Oil        -0.9%     -9.7%
+Gasoline           -9.5%    -11.6%
+Wheat              -7.6%    -10.0%
+Corn               -0.7%     -7.2%
+Soybeans           -7.4%    -15.4%
+Soybean Oil        -5.6%     -7.4%
+Soybean Meal       -0.9%     -5.7%
+Coffee        [92m      6.5%[0m    -10.0%
+Cocoa              -4.7%     -4.7%
+Sugar              -5.0%     -5.0%
+Cotton             -4.6%     -5.5%
+S&P 500       [92m      3.2%[0m     -9.6%
+Nasdaq        [92m      2.6%[0m     -7.6%
+Apple              -3.1%     -5.1%
+Tesla         [92m      4.7%[0m     -6.2%
+Nvidia        [92m      6.2%[0m     -7.0%
+Microsoft     [92m      6.4%[0m     -6.8%
+Amazon             -3.7%     -9.8%
+Meta               -2.9%    -13.7%
+Alphabet      [92m     30.5%[0m     -7.5%
+AMD           [92m     27.9%[0m     -3.9%
+Netflix            -3.0%    -12.0%
+Visa               -2.8%    -12.6%
+Mastercard         -8.1%    -10.8%
+UnitedHealth      -13.2%    -13.7%
+Home Depot    [92m      7.4%[0m     -4.8%
+Bank of America[92m      6.5%[0m     -5.6%
+Coca-Cola         -10.6%    -18.0%
+Procter & Gamble     -7.4%     -7.4%
+Walmart            -3.4%    -16.0%
+JPMorgan      [92m     16.1%[0m     -7.2%
+Exxon Mobil       -16.9%    -18.5%
+Eli Lilly     [92m      3.0%[0m     -8.9%
+20Y Treasury      -10.2%    -10.6%
+7-10Y Treasury     -6.5%     -8.4%
+Euro          [92m      5.2%[0m     -5.1%
+Yen                -2.0%     -9.0%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT ===
+=== Period: 2025-01-01 -> 2026-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     21.2%[0m     -9.6%
+Palladium     [92m     23.4%[0m     -6.7%
+Zinc              -10.9%    -11.0%
+Aluminum           -8.6%    -16.5%
+Crude Oil          -9.1%    -13.8%
+Copper        [92m      4.0%[0m     -9.5%
+Brent Oil         -10.9%    -12.6%
+Natural Gas        -7.9%     -9.2%
+Heating Oil        -0.9%     -9.7%
+Gasoline           -9.5%    -11.6%
+Wheat              -7.6%    -10.0%
+Corn               -0.7%     -7.2%
+Soybeans           -7.4%    -15.4%
+Soybean Oil        -5.6%     -7.4%
+Soybean Meal  [92m      5.0%[0m     -3.8%
+Coffee        [92m      6.5%[0m    -10.0%
+Cocoa              -4.7%     -4.7%
+Sugar              -5.0%     -5.0%
+Cotton             -4.6%     -5.5%
+S&P 500       [92m      1.3%[0m     -9.6%
+Nasdaq             -0.7%     -9.4%
+Apple              -4.1%     -5.1%
+Tesla         [92m      4.2%[0m     -6.6%
+Nvidia        [92m      6.2%[0m     -7.0%
+Microsoft          -2.6%     -6.8%
+Amazon             -4.7%     -9.8%
+Meta               -2.9%    -13.7%
+Alphabet      [92m     28.0%[0m     -7.5%
+AMD           [92m     27.9%[0m     -3.9%
+Netflix            -3.3%    -12.0%
+Visa               -2.8%    -12.6%
+Mastercard    [92m      0.0%[0m     -3.8%
+UnitedHealth      -13.6%    -15.2%
+Home Depot    [92m      7.4%[0m     -4.8%
+Bank of America[92m      5.2%[0m     -5.6%
+Coca-Cola         -10.6%    -18.0%
+Procter & Gamble     -7.4%     -7.4%
+Walmart            -3.4%    -16.0%
+JPMorgan      [92m     15.3%[0m     -7.2%
+Exxon Mobil       -16.9%    -18.5%
+Eli Lilly     [92m      3.3%[0m     -8.9%
+20Y Treasury      -11.0%    -11.3%
+7-10Y Treasury     -8.0%     -8.6%
+Euro          [92m      2.9%[0m     -5.1%
+Yen                -2.0%     -9.0%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+VT LS ===
+=== Period: 2025-01-01 -> 2026-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     21.2%[0m     -9.6%
+Palladium     [92m     12.5%[0m    -11.2%
+Zinc              -13.1%    -15.5%
+Aluminum           -8.3%    -18.4%
+Crude Oil         -10.4%    -15.8%
+Copper             -0.0%     -9.5%
+Brent Oil         -15.4%    -18.3%
+Natural Gas       -11.8%    -13.8%
+Heating Oil        -8.7%    -18.5%
+Gasoline          -12.4%    -20.4%
+Wheat             -19.2%    -23.1%
+Corn               -0.7%    -10.8%
+Soybeans          -14.1%    -21.4%
+Soybean Oil       -13.7%    -16.3%
+Soybean Meal       -9.9%    -15.5%
+Coffee        [92m     10.3%[0m    -11.4%
+Cocoa         [92m      1.4%[0m     -6.2%
+Sugar             -17.9%    -21.8%
+Cotton            -19.6%    -24.7%
+S&P 500            -2.7%     -9.6%
+Nasdaq             -5.2%     -9.4%
+Apple             -17.0%    -17.8%
+Tesla         [92m      1.2%[0m    -11.7%
+Nvidia        [92m      2.2%[0m     -9.0%
+Microsoft          -8.1%     -9.3%
+Amazon            -10.7%    -15.4%
+Meta               -1.8%    -13.8%
+Alphabet      [92m     23.9%[0m    -10.4%
+AMD           [92m     24.1%[0m     -7.3%
+Netflix       [92m      1.1%[0m    -13.5%
+Visa              -12.1%    -20.9%
+Mastercard        -12.7%    -12.6%
+UnitedHealth       -5.9%    -14.0%
+Home Depot    [92m     10.4%[0m    -10.1%
+Bank of America[92m      2.9%[0m     -6.1%
+Coca-Cola         -13.6%    -19.4%
+Procter & Gamble    -17.7%    -21.4%
+Walmart            -8.9%    -20.8%
+JPMorgan      [92m      9.3%[0m    -10.0%
+Exxon Mobil       -24.2%    -24.4%
+Eli Lilly         -12.9%    -19.1%
+20Y Treasury      -24.7%    -26.6%
+7-10Y Treasury     -8.9%    -11.4%
+Euro               -1.9%     -7.9%
+Yen                -1.0%    -14.1%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+MACD+Pyramid ===
+=== Period: 2025-01-01 -> 2026-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     16.7%[0m    -10.1%
+Palladium     [92m     19.9%[0m     -5.9%
+Zinc               -9.0%     -9.3%
+Aluminum           -3.2%    -11.0%
+Crude Oil          -5.8%     -9.6%
+Copper        [92m      0.7%[0m    -10.1%
+Brent Oil          -7.4%     -8.7%
+Natural Gas        -4.8%     -5.4%
+Heating Oil        -3.8%     -9.2%
+Gasoline          -10.0%    -11.8%
+Wheat              -7.2%     -8.6%
+Corn               -2.6%     -9.0%
+Soybeans           -0.1%     -8.0%
+Soybean Oil        -5.2%     -5.8%
+Soybean Meal  [92m      4.4%[0m     -3.8%
+Coffee        [92m      5.5%[0m     -9.2%
+Cocoa              -3.9%     -3.9%
+Sugar              -2.5%     -2.5%
+Cotton             -4.3%     -4.7%
+S&P 500            -0.5%    -10.1%
+Nasdaq             -0.6%     -8.5%
+Apple              -6.9%     -4.9%
+Tesla         [92m      3.9%[0m     -5.4%
+Nvidia        [92m      7.1%[0m     -7.8%
+Microsoft          -3.0%     -8.7%
+Amazon             -7.8%     -9.7%
+Meta          [92m      2.0%[0m     -8.2%
+Alphabet      [92m     23.3%[0m     -7.4%
+AMD           [92m     25.7%[0m     -4.4%
+Netflix            -1.7%     -9.9%
+Visa               -0.8%    -10.4%
+Mastercard         -1.2%     -3.5%
+UnitedHealth      -13.0%    -14.0%
+Home Depot    [92m      5.7%[0m     -3.6%
+Bank of America[92m      2.4%[0m     -6.1%
+Coca-Cola          -7.9%    -13.7%
+Procter & Gamble     -6.5%     -6.5%
+Walmart            -7.1%    -16.5%
+JPMorgan      [92m     13.4%[0m     -6.6%
+Exxon Mobil       -12.5%    -13.5%
+Eli Lilly     [92m      3.9%[0m     -6.5%
+20Y Treasury      -10.3%    -10.4%
+7-10Y Treasury     -9.7%    -10.9%
+Euro               -0.8%     -5.6%
+Yen                -1.2%     -6.7%
+
+==================================================
+=== Group: Diversified Portfolio ===
+=== Strategy: Donchian Ens+Pyramid ===
+=== Period: 2025-01-01 -> 2026-01-01 ===
+Instrument        Return  Drawdown
+----------------------------------
+Gold          [92m     16.3%[0m    -10.6%
+Palladium     [92m     19.9%[0m     -5.9%
+Zinc               -9.0%     -9.3%
+Aluminum           -2.7%    -10.6%
+Crude Oil          -5.8%     -9.6%
+Copper        [92m      0.7%[0m    -10.1%
+Brent Oil          -7.4%     -8.7%
+Natural Gas        -4.6%     -5.2%
+Heating Oil        -3.8%     -9.2%
+Gasoline          -10.0%    -11.8%
+Wheat              -7.2%     -8.6%
+Corn               -2.6%     -9.0%
+Soybeans           -0.1%     -8.0%
+Soybean Oil        -5.2%     -5.8%
+Soybean Meal  [92m      1.4%[0m     -3.8%
+Coffee        [92m      5.5%[0m     -9.2%
+Cocoa              -3.9%     -3.9%
+Sugar              -2.5%     -2.5%
+Cotton             -4.3%     -4.7%
+S&P 500       [92m      1.2%[0m    -10.1%
+Nasdaq             -0.7%     -8.5%
+Apple              -6.4%     -4.6%
+Tesla         [92m      4.2%[0m     -5.1%
+Nvidia        [92m      7.1%[0m     -7.8%
+Microsoft     [92m      6.2%[0m     -8.7%
+Amazon             -6.6%     -9.7%
+Meta          [92m      2.0%[0m     -8.2%
+Alphabet      [92m     24.5%[0m     -7.4%
+AMD           [92m     25.7%[0m     -4.4%
+Netflix            -1.5%     -9.9%
+Visa               -0.8%    -10.4%
+Mastercard         -5.3%     -6.6%
+UnitedHealth      -13.5%    -13.5%
+Home Depot    [92m      5.7%[0m     -3.6%
+Bank of America[92m      3.4%[0m     -6.1%
+Coca-Cola          -7.9%    -13.7%
+Procter & Gamble     -6.5%     -6.5%
+Walmart            -7.1%    -16.5%
+JPMorgan      [92m     14.4%[0m     -6.6%
+Exxon Mobil       -12.5%    -13.5%
+Eli Lilly     [92m      3.8%[0m     -6.5%
+20Y Treasury       -9.7%     -9.9%
+7-10Y Treasury     -9.7%    -10.1%
+Euro          [92m      0.9%[0m     -5.6%
+Yen                -1.2%     -6.7%

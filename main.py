@@ -4,7 +4,8 @@ from engine import load_data, run_engine, combine_positions
 
 from strategies import (ema_cross, ema_cross_stop, sma_trend, ema_trend,
                         ema_ensemble, ema_ensemble_voltarget,
-                        ema_ensemble_long_short, ema_ensemble_voltarget_ls)
+                        ema_ensemble_long_short, ema_ensemble_voltarget_ls,
+                        ema_ensemble_voltarget_smart_ls)
 from strategies_turtle import (donchian_breakout,
                                donchian_ensemble_voltarget,
                                donchian_ensemble_macd_voltarget,
@@ -12,6 +13,7 @@ from strategies_turtle import (donchian_breakout,
                                donchian_ensemble_pyramid)
 from strategies_seasonal import seasonal_gas
 from strategies_meanrev import bollinger_rsi
+from strategies_dualmom import dual_momentum_tilt
 
 
 cost = 0.001
@@ -63,6 +65,29 @@ instruments = {
     "agriculture": agriculture,
 }
 
+diversified = {
+    "S&P 500": "SPY",
+    "Nasdaq": "QQQ",
+    # Equity (Tech & Growth)
+    "Apple": "AAPL",
+    "Tesla": "TSLA",
+    "Nvidia": "NVDA",
+    "Microsoft": "MSFT",
+    "Amazon": "AMZN",
+    "Meta": "META",
+    "Alphabet": "GOOGL",
+    # --- 10 ДОБАВЛЕННЫХ НОВЫХ АКЦИЙ ---
+    "AMD": "AMD",
+    "Netflix": "NFLX",
+    "Visa": "V",
+    "Mastercard": "MA",
+    "UnitedHealth": "UNH",
+    "Home Depot": "HD",
+    "Bank of America": "BAC",
+    "Coca-Cola": "KO",
+    "Procter & Gamble": "PG",
+    "Walmart": "WMT",
+}
 
 def run_year(trade_start, end):
     load_start = (
@@ -118,38 +143,71 @@ def compare_strategies(ticker, name):
             print_row(label, r, dd)
 
 
-compare_strategies("GC=F", "Gold")
-compare_strategies("NG=F", "Natural Gas")
+
 
 
 """
+compare_strategies("GC=F", "Gold")
+compare_strategies("NG=F", "Natural Gas")
 compare_strategies("ALI=F", "Aluminum")
 compare_strategies("NG=F", "Natural Gas")
 compare_strategies("ZW=F", "Wheat")
-compare_strategies("ZS=F", "Soybeans")
+compare_strategies("ZS=F", "Soybeans") 
 compare_strategies("CC=F", "Cocoa")
 compare_strategies("SB=F", "Sugar")
 compare_strategies("CT=F", "Cotton")"""
 
 
-def run_year_new(trade_start, end, instr, group_name, strategy):
+"""strategies = {
+    "EMA Cross": ema_cross,
+    "EMA Ens+VT": ema_ensemble_voltarget,
+    "Donchian MACD Vol": donchian_ensemble_macd_voltarget,
+    "Donchian MACD Pyr": donchian_ensemble_macd_pyramid,
+    "Dual momentum tilt": dual_momentum_tilt,
+}
+"""
+
+strategies = {
+    "EMA ens + vt ls": ema_ensemble_voltarget_ls,
+    "EMA ens + vt ls smart": ema_ensemble_voltarget_smart_ls,
+    "Donchian MACD Vol": donchian_ensemble_voltarget,
+}
+
+
+def run_year_new(trade_start, end, instr, group_name, strategy_name, strategy_func):
     load_start = (
         pd.Timestamp(trade_start) - pd.DateOffset(years=3)
     ).strftime("%Y-%m-%d")
 
-    print(f"\n=== Trade Instrument: {group_name}  ===")
-    print(f"\n=== Trade Strategy: {strategy.__name__}  ===")
-    print(f"\n=== Trade period: {trade_start} -> {end} ===")
+    print(f"\n{'='*50}")
+    print(f"=== Group: {group_name} ===")
+    print(f"=== Strategy: {strategy_name} ===")
+    print(f"=== Period: {trade_start} -> {end} ===")
     print(f"{'Instrument':<14}{'Return':>10}{'Drawdown':>10}")
+    print("-" * 34)
+
     for name, ticker in instr.items():
         close = load_data(ticker, load_start, end)
-        position = strategy(close)
-        _, total_return, max_dd = run_engine(
-            close, position, trade_start, cost)
+
+        position = strategy_func(close)
+
+        _, total_return, max_dd = run_engine(close, position, trade_start, cost)
         print_row(name, total_return, max_dd)
 
 
-"""for trade_start, end in periods:
-    for group_name, group_dict in instruments.items():
-        run_year_new(trade_start, end, group_dict,
-                     group_name, ema_ensemble_voltarget)"""
+instruments_div = {
+    "Diversified Portfolio": diversified
+}
+
+
+for trade_start, end in periods:
+    for group_name, group_dict in instruments_div.items():
+        for strategy_name, strategy_func in strategies.items():
+            run_year_new(
+                trade_start,
+                end,
+                group_dict,
+                group_name,
+                strategy_name,
+                strategy_func
+            )

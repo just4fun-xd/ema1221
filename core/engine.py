@@ -51,3 +51,32 @@ def combine_positions(*positions, weights=None):
         weights = [1.0 / len(positions)] * len(positions)
     combined = sum(p * w for p, w in zip(positions, weights))
     return combined
+
+
+def run_spread_engine(close, position, trade_start, cost_points=0.01):
+    """
+    Промышленный движок для тестирования спредов и арбитража.
+    Считает PnL в абсолютных пунктах (ценовых разницах), защищен от перехода через ноль.
+    """
+    result = pd.DataFrame({"Close": close, "position": position})
+    held = result["position"].shift(1)
+
+    result["trade"] = (result["position"] - held).abs()
+
+    result["price_diff"] = result["Close"].diff()
+
+    result["strategy_points"] = result["price_diff"] * held
+    result["costs"] = result["trade"] * cost_points
+    result["strategy_net"] = result["strategy_points"] - result["costs"]
+
+    result = result[result.index >= trade_start]
+
+    result["equity_points"] = result["strategy_net"].cumsum()
+
+    result["peak_points"] = result["equity_points"].cummax()
+    result["drawdown_points"] = result["equity_points"] - result["peak_points"]
+
+    total_return_points = result["equity_points"].iloc[-1]
+    max_dd_points = result["drawdown_points"].min()
+
+    return result, total_return_points, max_dd_points

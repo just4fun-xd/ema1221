@@ -239,61 +239,123 @@ def ema_ensemble_voltarget_ls(close, pairs=None, threshold=0.5,
     return direction * size
 
 
-def ema_ensemble_voltarget_smart_ls(close, pairs_long=None, pairs_short=None, 
-                                    threshold_long=0.2, threshold_short=-0.8,
-                                    target_vol=0.15, vol_window=30, max_pos=2.0):
+def calculate_hurst_exponent(ts, max_lag=20):
     """
-    Асимметричный Long/Short ансамбль с умным таргетированием волатильности.
+    Векторизованный расчет показателя Херста через 
+    дисперсию разностей (Lags). Идеально подходит для rolling 
+    расчетов в pandas, так как не использует циклы.
     """
-    if pairs_long is None:
-        pairs_long = [(5, 20), (10, 40), (20, 80), (40, 160), (64, 256)]
+    if len(ts) < max_lag * 2:
+        return 0.5
 
-    if pairs_short is None:
-        pairs_short = [(5, 20), (10, 40), (20, 80)]
+    lags = range(2, max_lag)
+    tau = [np.sqrt(np.std(np.subtract(ts[lag:], ts[:-lag]))) for lag in lags]
 
-    votes_long = []
-    for fast, slow in pairs_long:
+    poly = np.polyfit(np.log(lags), np.log(tau), 1)
+    return poly[0] * 2.0
+
+
+def ema_ensemble_voltarget_hurst_filtered(close, pairs=None, threshold=0.5,
+                                          target_vol=0.15, vol_window=30, 
+                                          max_pos=2.0, hurst_window=150, 
+                                          hurst_threshold=0.55):
+    """
+    EMA Ensemble + VolTargeting, динамически фильтруемый показателем Херста.
+    Если рынок превращается в случайный шум или пилу
+    (Hurst <= hurst_threshold), стратегия принудительно выходит
+    в кэш (0.0), спасая депозит от whipsaw.
+    """
+    if pairs is None:
+        pairs = [(5, 20), (10, 40), (20, 80), (40, 160), (64, 256)]
+
+    votes = []
+    for fast, slow in pairs:
         ema_fast = close.ewm(span=fast, adjust=False).mean()
         ema_slow = close.ewm(span=slow, adjust=False).mean()
-        votes_long.append(np.where(ema_fast > ema_slow, 1, -1))
-    
-    score_long = np.mean(votes_long, axis=0)
-    
-    votes_short = []
-    for fast, slow in pairs_short:
-        ema_fast = close.ewm(span=fast, adjust=False).mean()
-        ema_slow = close.ewm(span=slow, adjust=False).mean()
-        votes_short.append(np.where(ema_fast > ema_slow, 1, -1))
-        
-    score_short = np.mean(votes_short, axis=0)
+        votes.append(np.where(ema_fast > ema_slow, 1, 0))
 
-    direction = pd.Series(0.0, index=close.index)
-    
-    direction[score_long > threshold_long] = 1.0
-    
-    direction[score_short < threshold_short] = -1.0
-    
+    score = np.mean(votes, axis=0)
+    raw_direction = pd.Series(0.0, index=close.index)
+    raw_direction[score > threshold] = 1.0
+
+    hurst_series = close.rolling(window=hurst_window).apply(
+        lambda x: calculate_hurst_exponent(x), raw=True
+    ).shift(1).fillna(0.5)
+
+    filtered_direction = np.zeros(len(close))
+    trend_mode = False
+
+    for i in range(len(close)):
+        current_hurst = hurst_series.iloc[i]
+
+        if not trend_mode:
+            if current_hurst > 0.56:
+                trend_mode = True
+        else:
+            if current_hurst < 0.48:
+                trend_mode = False
+
+        if trend_mode:
+            filtered_direction[i] = raw_direction.iloc[i]
+        else:
+            filtered_direction[i] = 0.0
+
+    filtered_direction = pd.Series(filtered_direction, index=close.index)
+
     daily_vol = close.pct_change().rolling(vol_window).std()
     annual_vol = daily_vol * np.sqrt(252)
-    
     raw_size = target_vol / annual_vol
+    size = raw_size.clip(upper=max_pos)
 
-    
-    final_position = pd.Series(0.0, index=close.index)
-    
-    for i in range(len(close)):
-        if pd.isna(annual_vol.iloc[i]):
-            continue
-            
-        current_dir = direction.iloc[i]
-        calculated_size = raw_size.iloc[i]
-        
-        if current_dir == 1.0:
-            size = min(calculated_size, max_pos)
-            final_position.iloc[i] = size
-        elif current_dir == -1.0:
-
-            size = max(min(calculated_size, 1.0), 0.5)
-            final_position.iloc[i] = -size
+    final_position = filtered_direction * size
 
     return final_position
+
+
+def cross_sectional_dual_momentum(prices_df, momentum_window=126, top_n=3, target_vol=0.15, vol_window=30):
+    """
+    Умный асимметричный кросс-секционный моментум с фильтром по широкому рынку.
+    Шортит аутсайдеров ТОЛЬКО во время медвежьего тренда на рынке.
+    """
+    if isinstance(prices_df, pd.Series):
+        return pd.Series(0.0, index=prices_df.index)
+
+    raw_weights = pd.DataFrame(0.0, index=prices_df.index, columns=prices_df.columns)
+    
+    # В качестве прокси рынка берем среднее по всем акциям (или индекс, если он есть в колонках)
+    market_proxy = prices_df.mean(axis=1)
+    market_sma = market_proxy.rolling(200).mean() # SMA 200 для определения глобального тренда
+    
+    momentum = (prices_df.shift(1) / prices_df.shift(momentum_window + 1)) - 1.0
+    
+    for date, row in momentum.iterrows():
+        if row.isna().any() or pd.isna(market_sma.loc[date]):
+            continue
+            
+        ranked = row.sort_values(ascending=False)
+        strongest_tickers = ranked.index[:top_n]
+        weakest_tickers = ranked.index[-top_n:]
+        
+        # ЛОНГ включен всегда — ставим ставку на лидеров
+        raw_weights.loc[date, strongest_tickers] = 1.0 / top_n
+        
+        # ШОРТ включается ТОЛЬКО если прокси рынка ниже своей SMA 200 (рынок падает)
+        if market_proxy.loc[date] < market_sma.loc[date]:
+            raw_weights.loc[date, weakest_tickers] = -1.0 / top_n
+            
+    # --- Дальше стандартный блок VolTargeting портфеля ---
+    portfolio_returns = pd.Series(0.0, index=prices_df.index)
+    asset_returns = prices_df.pct_change()
+
+    for i in range(1, len(prices_df)):
+        portfolio_returns.iloc[i] = np.dot(asset_returns.iloc[i], raw_weights.iloc[i-1])
+
+    port_daily_vol = portfolio_returns.rolling(vol_window).std()
+    port_annual_vol = port_daily_vol * np.sqrt(252)
+
+    portfolio_scale = target_vol / port_annual_vol
+    portfolio_scale = portfolio_scale.fillna(1.0)
+
+    final_positions_df = raw_weights.multiply(portfolio_scale, axis=0)
+
+    return final_positions_df

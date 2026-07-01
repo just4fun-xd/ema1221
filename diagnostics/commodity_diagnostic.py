@@ -17,7 +17,7 @@ Run locally: python -m diagnostics.commodity_diagnostic
 """
 
 import pandas as pd
-import numpy as np
+# import numpy as np
 
 from core.engine import run_engine
 from strategies.strategies import ema_ensemble

@@ -2,9 +2,12 @@ import pandas as pd
 from core.display import print_row
 from core.engine import load_data, run_engine
 
-from strategies.strategies import (ema_cross, ema_cross_stop, sma_trend, ema_trend,
-                        ema_ensemble, ema_ensemble_voltarget,
-                        ema_ensemble_long_short, ema_ensemble_voltarget_ls)
+from strategies.strategies import (ema_cross, ema_cross_stop, sma_trend,
+                                   ema_ensemble, ema_ensemble_voltarget,
+                                   ema_ensemble_long_short, ema_trend,
+                                   ema_ensemble_voltarget_ls,
+                                   ema_ensemble_voltarget_hurst_filtered,
+                                   cross_sectional_dual_momentum)
 
 
 cost = 0.001
@@ -20,7 +23,7 @@ periods = [
 ]
 
 
-diversified = {
+"""diversified = {
     # Commodities
     "Gold": "GC=F",
     "Palladium": "PA=F",
@@ -77,21 +80,45 @@ diversified = {
     "Yen": "6J=F",
     # Crypto (короткая история, но сильные тренды)
     # "Bitcoin": "BTC-USD",
+}"""
+
+diversified = {
+    # Equity indices (ETF — надёжно, без roll)
+    "Gold": "GC=F",
+    "Palladium": "PA=F",
+    "Zinc": "ZN=F",
+    "Aluminum": "ALI=F",
+    "Crude Oil": "CL=F",
+    "Copper": "HG=F",
+    "Brent Oil": "BZ=F",
+    "Natural Gas": "NG=F",
+    "Heating Oil": "HO=F",
+    "Gasoline": "RB=F",
+    "Wheat": "ZW=F",
+    "Corn": "ZC=F",
+    "Soybeans": "ZS=F",
+    "Soybean Oil": "ZL=F",
+    "Soybean Meal": "ZM=F",
+    "Coffee": "KC=F",
+    "Cocoa": "CC=F",
+    "Sugar": "SB=F",
+    "Cotton": "CT=F",
+
 }
 
 strategies = {
-    "EMA Cross": ema_cross,
-    "EMA Cross+Stop": ema_cross_stop,
-    "SMA Trend": sma_trend,
-    "EMA Trend": ema_trend,
-    "EMA Ens": ema_ensemble,
-    "EMA Ens+VT": ema_ensemble_voltarget,
-    "EMA Ens LS": ema_ensemble_long_short,
-    "EMA Ens+VT LS": ema_ensemble_voltarget_ls,
+    # "EMA Cross": ema_cross,
+    # "SMA Trend": sma_trend,
+    # "EMA Ens": ema_ensemble,
+    # "EMA Ens+VT": ema_ensemble_voltarget,
+    # "EMA Ens LS": ema_ensemble_long_short,
+    # "EMA Ens+VT LS": ema_ensemble_voltarget_ls,
+    "EMA Ens+VT Hurst": ema_ensemble_voltarget_hurst_filtered,
 }
 
 
-def run_year_new(trade_start, end, instr, group_name, strategy_name, strategy_func):
+def run_year_new(trade_start, end, instr, group_name,
+                 strategy_name, strategy_func):
     load_start = (
         pd.Timestamp(trade_start) - pd.DateOffset(years=3)
     ).strftime("%Y-%m-%d")
@@ -108,7 +135,8 @@ def run_year_new(trade_start, end, instr, group_name, strategy_name, strategy_fu
 
         position = strategy_func(close)
 
-        _, total_return, max_dd = run_engine(close, position, trade_start, cost)
+        _, total_return, max_dd = run_engine(close, position,
+                                             trade_start, cost)
         print_row(name, total_return, max_dd)
 
 

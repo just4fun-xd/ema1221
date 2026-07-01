@@ -16,6 +16,10 @@ from strategies.strategies_turtle import (
     donchian_ensemble_pyramid
 )
 
+from strategies.strategies_donchian_champions import (
+    donchian_ensemble_macd_4step_pyramid,
+    donchian_ensemble_macd_4step_take
+)
 
 cost = 0.001
 
@@ -89,7 +93,7 @@ diversified = {
     # "Bitcoin": "BTC-USD",
 }
 
-strategies = {
+"""strategies = {
     "Donchian Base": donchian_breakout,
     "Donchian Base LS": donchian_breakout_ls,
     "Donchian Ens+VT": donchian_ensemble_voltarget,
@@ -97,7 +101,13 @@ strategies = {
     "Donchian Ens+MACD+VT LS": donchian_ensemble_macd_voltarget_ls,
     "Donchian Ens+MACD+Pyramid": donchian_ensemble_macd_pyramid,
     "Donchian Ens+Pyramid": donchian_ensemble_pyramid,
+}"""
+
+strategies = {
+    "Donchian ens macd 4step pyr": donchian_ensemble_macd_4step_pyramid,
+    "Donchian ens macd 4step take": donchian_ensemble_macd_4step_take,
 }
+
 
 
 def run_year_new(trade_start, end, instr, group_name, strategy_name, strategy_func):

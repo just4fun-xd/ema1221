@@ -15,7 +15,7 @@ Outputs:
 import pandas as pd
 
 from core.engine import load_data, run_engine
-from strategies.strategies import ema_ensemble
+from strategies.strategies import (ema_ensemble, cross_sectional_dual_momentum)
 from core.engine_portfolio import (load_basket, positions_to_weights,
                               run_portfolio, portfolio_beta,
                               run_portfolio_yearly)
@@ -108,6 +108,7 @@ def main():
         "2: regime short": (
             dual_momentum_regime(prices, benchmark=spy), False),
         "3: vol-scaled MN": (dual_momentum_volscaled(prices), True),
+        "4: cross_section_dual": (cross_sectional_dual_momentum(prices), True)
     }
 
     rows = [score(n, w, prices, spy, neutral=neu)
@@ -148,12 +149,12 @@ def main():
         tag = "  <- bear" if y == 2022 else ""
         print(line + tag)
 
-    # --- Per-instrument yearly report for the regime variant ---
+    # --- Per-instrument yearly report for Cross Section Dual Momentum ---
     print("\n" + "=" * 72)
-    print("  Per-instrument / per-year report: variant 2 (regime short)")
+    print("  Per-instrument / per-year report: variant 4 (cross_section_dual)")
     print("=" * 72)
-    w_reg = dual_momentum_regime(prices, benchmark=spy)
-    run_portfolio_yearly(prices, w_reg, PERIODS, COST)
+    w_cs = cross_sectional_dual_momentum(prices) # <-- Вызываем нашу стратегию
+    run_portfolio_yearly(prices, w_cs, PERIODS, COST)
 
 
 if __name__ == "__main__":

@@ -2,15 +2,14 @@ import pandas as pd
 from core.display import print_header, print_row
 from core.engine import load_data, run_engine, combine_positions
 
-from strategies.strategies import (ema_cross, ema_cross_stop, sma_trend, ema_trend,
-                        ema_ensemble, ema_ensemble_voltarget,
-                        ema_ensemble_long_short, ema_ensemble_voltarget_ls,
-                        ema_ensemble_voltarget_smart_ls)
+from strategies.strategies import (ema_cross, ema_cross_stop,
+                                   ema_ensemble_voltarget,
+                                   ema_ensemble_voltarget_ls)
 from strategies.strategies_turtle import (donchian_breakout,
-                               donchian_ensemble_voltarget,
-                               donchian_ensemble_macd_voltarget,
-                               donchian_ensemble_macd_pyramid,
-                               donchian_ensemble_pyramid)
+                                          donchian_ensemble_voltarget,
+                                          donchian_ensemble_macd_voltarget,
+                                          donchian_ensemble_macd_pyramid,
+                                          donchian_ensemble_pyramid)
 from strategies.strategies_seasonal import seasonal_gas
 from strategies.strategies_meanrev import bollinger_rsi
 from strategies.strategies_dualmom import dual_momentum_tilt
@@ -66,8 +65,30 @@ instruments = {
 }
 
 diversified = {
+    # Commodities
+    "Gold": "GC=F",
+    "Palladium": "PA=F",
+    "Zinc": "ZN=F",
+    "Aluminum": "ALI=F",
+    "Crude Oil": "CL=F",
+    "Copper": "HG=F",
+    "Brent Oil": "BZ=F",
+    "Natural Gas": "NG=F",
+    "Heating Oil": "HO=F",
+    "Gasoline": "RB=F",
+    "Wheat": "ZW=F",
+    "Corn": "ZC=F",
+    "Soybeans": "ZS=F",
+    "Soybean Oil": "ZL=F",
+    "Soybean Meal": "ZM=F",
+    "Coffee": "KC=F",
+    "Cocoa": "CC=F",
+    "Sugar": "SB=F",
+    "Cotton": "CT=F",
+    # Equity indices (ETF — надёжно, без roll)
     "S&P 500": "SPY",
     "Nasdaq": "QQQ",
+
     # Equity (Tech & Growth)
     "Apple": "AAPL",
     "Tesla": "TSLA",
@@ -76,7 +97,6 @@ diversified = {
     "Amazon": "AMZN",
     "Meta": "META",
     "Alphabet": "GOOGL",
-    # --- 10 ДОБАВЛЕННЫХ НОВЫХ АКЦИЙ ---
     "AMD": "AMD",
     "Netflix": "NFLX",
     "Visa": "V",
@@ -87,7 +107,22 @@ diversified = {
     "Coca-Cola": "KO",
     "Procter & Gamble": "PG",
     "Walmart": "WMT",
+    # ------------------------------------
+
+    # Equity (Other sectors)
+    "JPMorgan": "JPM",
+    "Exxon Mobil": "XOM",
+    "Eli Lilly": "LLY",
+    # Bonds (ETF)
+    "20Y Treasury": "TLT",
+    "7-10Y Treasury": "IEF",
+    # Currencies (фьючерс)
+    "Euro": "6E=F",
+    "Yen": "6J=F",
+    # Crypto (короткая история, но сильные тренды)
+    # "Bitcoin": "BTC-USD",
 }
+
 
 def run_year(trade_start, end):
     load_start = (
@@ -168,9 +203,14 @@ compare_strategies("CT=F", "Cotton")"""
 """
 
 strategies = {
-    "EMA ens + vt ls": ema_ensemble_voltarget_ls,
-    "EMA ens + vt ls smart": ema_ensemble_voltarget_smart_ls,
-    "Donchian MACD Vol": donchian_ensemble_voltarget,
+    "EMA cross": ema_cross,
+    "EMA cross stop": ema_cross_stop,
+    "EMA ens + vt ls": ema_ensemble_voltarget,
+    "EMA ens + vt ls smart": ema_ensemble_voltarget_ls,
+    "Donchian ens Vol": donchian_ensemble_voltarget,
+    "Donchian ens macd Vol": donchian_ensemble_macd_voltarget,
+    "Donchian ens macd pyr": donchian_ensemble_macd_pyramid,
+    "Donchian ens  pyr": donchian_ensemble_pyramid,
 }
 
 
